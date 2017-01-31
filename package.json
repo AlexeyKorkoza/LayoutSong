@@ -1,0 +1,26 @@
+{
+  "name": "layout-song",
+  "version": "1.0.0",
+  "description": "page-proofs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyKorkoza/LayoutSong.git"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "js",
+    "jquery",
+    "npm"
+  ],
+  "author": "Alexey Korkoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexeyKorkoza/LayoutSong/issues"
+  },
+  "homepage": "https://github.com/AlexeyKorkoza/LayoutSong#readme"
+}
