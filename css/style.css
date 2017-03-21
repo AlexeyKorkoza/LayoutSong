@@ -1,7 +1,7 @@
-html,body{
+*{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 header{
@@ -128,4 +128,166 @@ nav a:hover{
 
 .socials a:hover{
   cursor: pointer;
+}
+
+.promo{
+  background: url(../img/promo-screen-1.png) no-repeat center;
+  background-size: cover;
+  padding: 62px 0 15px 0;
+}
+
+.promo_header1{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.promo_header2{
+  width: 80%;
+  margin: 115px auto 60px auto;
+}
+
+.promo_header1,
+.promo_header2{
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.promo_header1 h1,
+.promo_header2 h1{
+  color: #373737;
+  text-align: center;
+}
+
+.promo_header1 span,
+.promo_header2 span{
+  color: white;
+  float: left;
+}
+
+.promo_header1 h1{
+  font: 20pt "UbuntuRegular";
+  margin-top: 0;
+}
+
+.promo_header2 h1{
+  font: 25pt "UbuntuRegular";
+  text-align: left;
+}
+
+.promo_header1 span{
+  margin-top:30px;
+  font: 40pt "UbuntuMedium";
+  float:left;
+}
+
+.promo_header2 span{
+  margin-top: 22px;
+  font: 25pt "UbuntuMedium";
+}
+
+.promo_music{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.promo_music_whom{
+  background: url(../img/background-music-whom.png) no-repeat;
+  padding: 15px 17px 15px 15px;
+  background-size: cover;;
+}
+
+.promo_music_whom li{
+  list-style: none;
+  display: inline;
+}
+
+.promo_music_he{
+  padding: 0 25px 0 33px;
+  border-right: 1px solid #f0edeb;
+  color: #32a8ec;;
+}
+
+.promo_music_she{
+  padding: 0 26px 0 20px;
+  border-right: 1px solid #f0edeb;
+  color: #d207a4;;
+}
+
+.promo_music_action{
+  padding: 0 32px 0 29px;
+  color: #70c45d;;
+}
+
+.promo_music_he img{
+  margin-right: 12px;
+}
+
+.promo_music_she img,
+.promo_music_action img{
+  margin-right: 9px;
+}
+
+.promo_feedback{
+  background:url(../img/background-music-feedback.png) no-repeat;
+  background-size:cover;
+  padding:15px;
+}
+
+.promo_feedback_track{
+  background: url(../img/track.png) no-repeat;
+  height: 50px;
+  margin-left: 30px;
+}
+
+.promo_arrows{
+  position: relative;
+}
+
+.promo_arrow_left,
+.promo_arrow_right{
+  height: 50px;
+  width: 25px;
+  position: absolute;
+  top:20px;
+}
+
+.promo_arrow_left{
+  background: url(../img/arrow-left.png) no-repeat;
+}
+
+.promo_arrow_right{
+  background: url(../img/arrow-right.png) no-repeat;
+  right: 0;
+}
+
+.promo_feedback_who{
+  margin-left: 30px;
+}
+
+.who_name{
+  font: 10pt "UbuntuMedium";
+  color: black;
+}
+
+.who_whom{
+  color:black;
+  font:10pt "UbuntuLight";
+}
+
+.who_avatar{
+  background: url(../img/avatar-man.png) no-repeat;
+  height: 79px;
+  width: 79px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;;;;
+}
+
+.promo_feedback_text{
+  color:black;
+  font: 10pt "UbuntuLight";
+  padding:0 30px;
 }
