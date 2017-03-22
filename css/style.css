@@ -1,7 +1,7 @@
 *{
-  box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 header{
@@ -130,10 +130,14 @@ nav a:hover{
   cursor: pointer;
 }
 
+main{
+  overflow: hidden;
+}
+
 .promo{
+  padding: 62px 0 83px 0;
   background: url(../img/promo-screen-1.png) no-repeat center;
   background-size: cover;
-  padding: 62px 0 15px 0;
 }
 
 .promo_header1{
@@ -290,4 +294,49 @@ nav a:hover{
   color:black;
   font: 10pt "UbuntuLight";
   padding:0 30px;
+}
+
+.super_offer{
+  background: #ffde00;
+}
+
+.super_offer .container {
+  padding: 45px 0;
+}
+
+.super_offer h1{
+  font: bold 40pt "UbuntuMedium";
+  text-align:center;
+  color: #373737;
+}
+
+.super_offer .discount{
+  font: 35pt "UbuntuRegular";
+  text-align:center;
+  color: #373737;
+  margin-bottom: 78px;
+}
+
+.details img{
+  float: left;
+  margin-left: 20px;
+}
+
+.details p{
+  font: 25pt "UbuntuLight";
+  text-align: center;
+  color: #373737;
+}
+
+.order input[type=submit]{
+  background: #49b8d1;
+  color: white;
+  border:none;
+  border-bottom: 3px solid #388da0;
+  border-radius: 10px;
+  font: 25pt "UbuntuMedium";
+  padding: 32px 62px;
+  margin: 20px auto;
+  display: table;
+  cursor: pointer;
 }
