@@ -328,7 +328,7 @@ main{
   color: #373737;
 }
 
-.order input[type=submit]{
+.order{
   background: #49b8d1;
   color: white;
   border:none;
@@ -339,4 +339,104 @@ main{
   margin: 20px auto;
   display: table;
   cursor: pointer;
+}
+
+.scheme_of_work{
+  background: #f0edeb;
+  padding: 30px 20px 0 20px;;
+}
+
+.scheme_of_work > h1{
+ font: bold 45pt "UbuntuMedium";
+ color: #373737;
+}
+
+.scheme_of_work_button input[type=submit] {
+  padding: 15px 30%;
+  background: #49b8d1;
+  font: 35pt "UbuntuLight";
+  color: white;
+  margin: 50px auto 45px;
+  display: table;
+  border: none;
+}
+
+.apply_online,
+.payment_method,
+.get_song {
+  padding-bottom: 105px;
+  border-bottom: #f0edeb;
+}
+
+.apply_online_icon,
+.payment_method_icon,
+.get_song_icon{
+  height: 190px;
+  background: url(../img/background_scheme_of_work.png) no-repeat;
+  width: 180px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.apply_online_icon img,
+.get_song_icon img{
+  position: absolute;
+  right: 30%;
+  top: 30%;
+}
+
+.payment_method_icon img{
+  position: absolute;
+  right: 40%;
+  top: 30%;
+}
+
+.apply_online_action,
+.payment_method_action,
+.get_song_action{
+  color: #373737;
+  margin-top: 15px;
+  font: bold 35pt "UbuntuMedium";
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.apply_online_text,
+.payment_method_text,
+.get_song_text{
+  color: #373737;
+  font: 25pt "UbuntuLight";
+}
+
+.get_song{
+  margin-bottom: 80px;
+}
+
+.emotions{
+  border: 5px solid #49b8d1;
+  padding: 5px 20px;
+  display: table;
+  margin:0 auto 20px;
+  border-radius: 50px;
+}
+
+.emotions_avatar{
+  border-radius: 50%;
+  margin-right: 9px;
+}
+
+.emotions_text h2{
+  color: #49b8d1;;
+  font: 38pt "UbuntuRegular";
+  text-decoration: underline;
+}
+
+.emotions_text p{
+  color: #373737;
+  font: 28pt "UbuntuLight";
+}
+
+.scheme_of_work_order{
+  display:table;
+  margin: 0 auto 100px;
 }
