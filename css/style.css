@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 header{
   background: #373737;
   overflow: hidden;
@@ -135,8 +139,8 @@ main{
 }
 
 .promo{
-  padding: 62px 0 83px 0;
   background: url(../img/promo-screen-1.png) no-repeat center;
+  padding: 62px 0 83px 0;
   background-size: cover;
 }
 
@@ -336,7 +340,7 @@ main{
   border-radius: 10px;
   font: 35pt "UbuntuMedium";
   padding: 32px 62px;
-  margin: 20px auto;
+  margin: 20px auto 0;
   display: table;
   cursor: pointer;
 }
@@ -438,5 +442,21 @@ main{
 
 .scheme_of_work_order{
   display:table;
-  margin: 0 auto 100px;
+  margin: 0 auto;
+}
+
+.whom_songs{
+  padding: 100px 10px 40px 10px;
+  overflow: hidden;
+  background: #f0edeb;
+}
+
+.whom_songs h1{
+  color: #373737;
+  text-align: center;
+  font: 60pt "UbuntuMedium";;
+}
+
+.whom_songs_example{
+  margin-top: 48px;
 }
