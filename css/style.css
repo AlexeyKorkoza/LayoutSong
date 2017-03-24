@@ -6,6 +6,7 @@
 
 html, body {
   height: 100%;
+  background: #f0edeb;;
 }
 
 header{
@@ -446,7 +447,7 @@ main{
 }
 
 .whom_songs{
-  padding: 100px 10px 40px 10px;
+  padding: 100px 10px 37px 10px;
   overflow: hidden;
   background: #f0edeb;
 }
@@ -458,5 +459,90 @@ main{
 }
 
 .whom_songs_example{
-  margin-top: 48px;
+  display: table;
+  margin: 48px auto 0 auto;
+}
+
+.example_songs{
+  background: url(../img/background-feedback.png);
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  padding: 120px 10px 55px 10px;;
+}
+
+.example_songs h1{
+  color: #373737;
+  font: 50pt "UbuntuMedium";
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.example_songs p{
+  line-height: 20px;
+  font: 25pt "UbuntuLight";
+  color: #373737;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.example_songs_feedback{
+  margin-top: 70px;
+}
+
+.example_songs_line{
+  background: url(../img/example_songs_line.png) no-repeat;
+  height: 10px;
+  position: relative;
+  width: 570px;
+  margin: 0 auto;;
+}
+
+.example_songs_line_man,
+.example_songs_line_woman,
+.example_songs_line_action{
+height: 40px;
+  width: 40px;
+  position: absolute;
+  top: -15px;
+}
+
+.example_songs_line_man{
+  background: url(../img/example_songs_line_man.png) no-repeat;
+  left: -39px;
+}
+
+.example_songs_line_woman{
+  background: url(../img/example_songs_line_woman.png) no-repeat;
+  right: 50%;
+}
+
+.example_songs_line_action{
+  background: url(../img/example_songs_line_action.png) no-repeat;
+  right: -39px;
+}
+
+.example_songs_line span{
+  font: 25pt "UbuntuLight";
+  position: absolute;
+}
+
+.example_songs_line_man span{
+  color:#49b8d1;
+   top:40px;
+  left:-40px;
+}
+
+.example_songs_line_woman span{
+  color:#d207a4;
+   top:40px;
+  left:-40px;
+}
+
+.example_songs_line_action span{
+  color:#70c45d;
+  top:40px;
+  left:-40px;
+
 }
