@@ -141,7 +141,7 @@ main{
 
 .promo{
   background: url(../img/promo-screen-1.png) no-repeat center;
-  padding: 62px 0 83px 0;
+  padding: 62px 20px 83px 20px;
   background-size: cover;
 }
 
@@ -303,6 +303,7 @@ main{
 
 .super_offer{
   background: #ffde00;
+  padding: 0 20px;;
 }
 
 .super_offer .container {
@@ -447,7 +448,7 @@ main{
 }
 
 .whom_songs{
-  padding: 100px 10px 37px 10px;
+  padding: 100px 20px 37px 20px;
   overflow: hidden;
   background: #f0edeb;
 }
@@ -468,7 +469,7 @@ main{
   overflow: hidden;
   position: relative;
   background-size: cover;
-  padding: 120px 10px 55px 10px;;
+  padding: 120px 20px 55px 20px;;
 }
 
 .example_songs h1{
@@ -480,15 +481,14 @@ main{
 }
 
 .example_songs p{
-  line-height: 20px;
   font: 25pt "UbuntuLight";
   color: #373737;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
 }
 
 .example_songs_feedback{
-  margin-top: 70px;
+  margin-top: 110px;
 }
 
 .example_songs_line{
@@ -530,19 +530,58 @@ height: 40px;
 
 .example_songs_line_man span{
   color:#49b8d1;
-   top:40px;
   left:-40px;
+  top:40px;
 }
 
 .example_songs_line_woman span{
   color:#d207a4;
-   top:40px;
-  left:-40px;
+  left:-55px;
+  top:40px;
 }
 
 .example_songs_line_action span{
   color:#70c45d;
   top:40px;
   left:-40px;
+}
 
+.video{
+  overflow: hidden;
+  color: white;
+  padding: 60px 20px 50px 20px;
+  background: url(../img/background-video.png) no-repeat center;
+  background-size: cover;
+}
+
+.video h1 {
+  font: bold 40pt "UbuntuMedium";
+  display: block;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.count_of_video > h2{
+  font: 30pt "UbuntuMedium";
+}
+
+.count_of_video > span {
+  font: 15pt "UbuntuLight";
+}
+
+.video > h2{
+  font: bold 50pt "UbuntuMedium";
+  display: block;
+  margin:70px 0 15px 0;
+  text-align: center;
+}
+
+.slider{
+  display: table;
+  margin: 0 auto;
+}
+
+.slider li{
+  width: 540px;
+  height: 300px;
 }

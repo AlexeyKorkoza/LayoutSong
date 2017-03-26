@@ -4,3 +4,5 @@ $(document).ready(function(){
     $("#navigation").toggle();
   });
 });
+var divs = $("div");
+var amazingslider_box = $(".amazingslider-box-1").find(divs);
