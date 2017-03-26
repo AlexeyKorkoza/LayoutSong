@@ -576,12 +576,48 @@ height: 40px;
   text-align: center;
 }
 
-.slider{
-  display: table;
-  margin: 0 auto;
+.feedback {
+  padding: 0 20px;
 }
 
-.slider li{
-  width: 540px;
-  height: 300px;
+.feedback h1{
+  font: 30pt "UbuntuMedium";
+  color:#373737;
+  display: block;
+  margin: 65px 0 55px;
+  text-align: center;
+}
+
+.feedback h3{
+  font: 15pt "UbuntuLight";
+  color:#373737;
+  text-align: center;
+  display:block;
+  margin-bottom: 25px;
+}
+
+.feedback_slider{
+  overflow: hidden;
+  position: relative;
+  padding: 120px 70px 50px 70px;
+  background: url(../img/background-feedback.png) no-repeat;
+  background-size: cover;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+  position: absolute;
+  top:40%;
+  height: 57px;
+  width: 57px;;
+}
+
+.owl-nav .owl-prev{
+  left: -70px;
+  background: url(../img/feedback-arrow-left.png) no-repeat !important;
+}
+
+.owl-nav .owl-next{
+  right: -70px;
+  background: url(../img/feedback-arrow-right.png) no-repeat !important;
 }
