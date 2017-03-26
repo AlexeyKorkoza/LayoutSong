@@ -621,3 +621,22 @@ height: 40px;
   right: -70px;
   background: url(../img/feedback-arrow-right.png) no-repeat !important;
 }
+
+.rates{
+  padding: 40px 20px;
+}
+
+.rates h1{
+  font: 30pt "UbuntuMedium";
+  color: #373737;
+  display: block;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.rates .price{
+  background: url(../img/Price.png) no-repeat;
+  height: 696px;
+  width: 100%;
+  /* width: 100%; */;
+}
