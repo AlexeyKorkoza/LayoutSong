@@ -715,3 +715,34 @@ height: 40px;
   margin-bottom: 50px;
   background: white;
 }
+
+.global-conclusion{
+  background: url(../img/background-global-conclusion.png) no-repeat center;
+  background-size: cover;
+  padding: 175px 20px 83px 20px;
+}
+
+.global-conclusion h1{
+  display: block;
+  margin-bottom: 43px;
+  color: white;
+  font: 40pt "UbuntuMedium";
+  text-align: center;
+}
+
+.global-conclusion h3{
+  display: block;
+  margin-bottom: 60px;;
+  color: white;
+  font: 20pt "UbuntuRegular";
+  text-align: center;
+}
+
+.global-conclusion p{
+  background: #49b8d1;
+  padding: 15px 50px 10px 50px;
+  font: 20pt "UbuntuMedium";
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
