@@ -746,3 +746,20 @@ height: 40px;
   text-align: center;
   color: white;
 }
+
+footer{
+  padding: 55px 0 50px 0;
+  background: #1e1c1b;
+  position: relative;
+}
+
+footer .data{
+   font: 10pt 'Roboto Thin';
+   color: white;
+   clear: left;
+}
+
+footer .contacts{
+  top: 80px;
+  margin: 0 20px 0 0;;
+}
