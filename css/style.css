@@ -17,7 +17,6 @@ header {
 }
 
 .logo {
-    padding: 10px;
     float: left;
 }
 
@@ -841,7 +840,7 @@ main {
 }
 
 footer {
-    padding: 55px 0 50px 0;
+    padding: 55px 20px 50px 20px;
     background: #1e1c1b;
     position: relative;
 }
