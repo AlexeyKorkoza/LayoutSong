@@ -112,3 +112,11 @@ function openWhom(evt, whom) {
     document.getElementById(whom).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+var modal = document.getElementById('Modal');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
