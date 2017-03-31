@@ -22,3 +22,8 @@
   font-family: 'UbuntuItalic';
   src: url('../fonts/Ubuntu/ubuntu.italic.ttf');
 }
+
+@font-face {
+  font-family: 'RobotoThin';
+  src: url('../fonts/RobotoThin/roboto-thin.ttf');
+}
