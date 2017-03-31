@@ -12,3 +12,54 @@
   }
 
 }
+
+@media only screen and (min-width: 992px) {
+
+  #nav-icon{
+    display: none;
+  }
+
+  .navigation{
+    display: block;
+    clear: none;
+    width: 100%;
+  }
+
+  .navigation a{
+    display: inline-block;
+  }
+
+  .contacts{
+    position: static;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+
+  .contacts {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 20px 10px;
+  }
+
+}
+
+@media only screen and (min-width: 1250px) {
+
+  header{
+    position: relative;
+  }
+
+  header .container{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+  }
+
+  .navigation{
+    width: 70%;
+  }
+
+}
