@@ -367,13 +367,13 @@ main {
 }
 
 .super_offer h1 {
-    font: bold 40pt "UbuntuMedium";
+    font: bold 30pt "UbuntuMedium";
     text-align: center;
     color: #373737;
 }
 
 .super_offer .discount {
-    font: 35pt "UbuntuRegular";
+    font: 25pt "UbuntuRegular";
     text-align: center;
     color: #373737;
     margin-bottom: 78px;
@@ -385,7 +385,7 @@ main {
 }
 
 .details p {
-    font: 25pt "UbuntuLight";
+    font: 20pt "UbuntuLight";
     text-align: center;
     color: #373737;
 }
@@ -396,7 +396,7 @@ main {
     border: none;
     border-bottom: 3px solid #388da0;
     border-radius: 10px;
-    font: 35pt "UbuntuMedium";
+    font: 25pt "UbuntuMedium";
     padding: 32px 62px;
     margin: 20px auto 0;
     display: table;
@@ -410,7 +410,7 @@ main {
 }
 
 .scheme_of_work > h1 {
-    font: bold 45pt "UbuntuMedium";
+    font: bold 35pt "UbuntuMedium";
     color: #373737;
     text-align: center;
 }
@@ -418,7 +418,7 @@ main {
 .scheme_of_work_button input[type=submit] {
     padding: 15px 30%;
     background: #49b8d1;
-    font: 35pt "UbuntuLight";
+    font: 25pt "UbuntuLight";
     color: white;
     margin: 50px auto 45px;
     display: table;
@@ -460,7 +460,7 @@ main {
 .get_song_action {
     color: #373737;
     margin-top: 15px;
-    font: bold 35pt "UbuntuMedium";
+    font: bold 25pt "UbuntuMedium";
     text-align: center;
     margin-bottom: 20px;
 }
@@ -469,7 +469,7 @@ main {
 .payment_method_text,
 .get_song_text {
     color: #373737;
-    font: 25pt "UbuntuLight";
+    font: 15pt "UbuntuLight";
 }
 
 .get_song {
@@ -492,13 +492,13 @@ main {
 .emotions_text h2 {
     color: #49b8d1;
     ;
-    font: 38pt "UbuntuRegular";
+    font: 28pt "UbuntuRegular";
     text-decoration: underline;
 }
 
 .emotions_text p {
     color: #373737;
-    font: 28pt "UbuntuLight";
+    font: 18pt "UbuntuLight";
 }
 
 .scheme_of_work_order {
@@ -515,7 +515,7 @@ main {
 .whom_songs h1 {
     color: #373737;
     text-align: center;
-    font: 60pt "UbuntuMedium";
+    font: 30pt "UbuntuMedium";
     ;
 }
 
@@ -535,7 +535,7 @@ main {
 
 .example_songs h1 {
     color: #373737;
-    font: 50pt "UbuntuMedium";
+    font: 40pt "UbuntuMedium";
     display: block;
     margin-bottom: 30px;
     text-align: center;
@@ -617,7 +617,7 @@ main {
 }
 
 .video h1 {
-    font: bold 40pt "UbuntuMedium";
+    font: bold 30pt "UbuntuMedium";
     display: block;
     margin-bottom: 60px;
     text-align: center;
@@ -632,7 +632,7 @@ main {
 }
 
 .video > h2 {
-    font: bold 50pt "UbuntuMedium";
+    font: bold 40pt "UbuntuMedium";
     display: block;
     margin: 70px 0 15px 0;
     text-align: center;
