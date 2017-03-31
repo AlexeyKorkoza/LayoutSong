@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/AlexeyKorkoza/LayoutSong/issues"
   },
-  "homepage": "https://github.com/AlexeyKorkoza/LayoutSong#readme"
+  "homepage": "https://github.com/AlexeyKorkoza/LayoutSong#readme",
+  "dependencies": {}
 }

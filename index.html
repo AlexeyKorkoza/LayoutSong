@@ -23,7 +23,7 @@
             <span></span>
             <span></span>
         </div>
-        <nav id="navigation">
+        <nav class="navigation">
             <a href="#">Главная</a>
             <a href="#">Звездные клиенты</a>
             <a href="#">Примеры песен</a>
@@ -56,25 +56,139 @@
             </div>
             <div class="promo_music">
                 <ul class="promo_music_whom">
-                    <li class="promo_music_he"><img src="img/he.png" alt="he">Парню</li>
-                    <li class="promo_music_she"><img src="img/she.png" alt="she">Девушке</li>
-                    <li class="promo_music_action"><img src="img/action.png" alt="action">Событие</li>
+                    <li><a class="tablinks he" onclick="openWhom(event, 'promo_feedback_he')"><img src="img/he.png" alt="he">Парню</a></li>
+                    <li><a class="tablinks she" onclick="openWhom(event, 'promo_feedback_she')"><img src="img/she.png" alt="she">Девушке</a></li>
+                    <li><a class="tablinks action" onclick="openWhom(event, 'promo_feedback_action')"><img src="img/action.png" alt="action">Событие</a></li>
                 </ul>
-                <div class="promo_feedback">
-                    <div class="promo_feedback_track"></div>
-                    <div class="promo_arrows">
-                        <div class="promo_arrow_left"></div>
-                        <div class="promo_feedback_who">
-                            <div class="who_avatar"></div>
-                            <div class="who_name">РОМАН ЛЕМАНН / ПЕРМЬ</div>
-                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
-                        </div>
-                        <div class="promo_arrow_right"></div>
+                <section class="promo_feedback promo_feedback1" id="promo_feedback_he">
+                   <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="promo_feedback_track"></div>
+                                    <div class="promo_arrows">
+                                        <div class="promo_feedback_who">
+                                            <div class="who_avatar"></div>
+                                            <div class="who_name">РОМАН ЛЕМАНН / Гродно</div>
+                                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
+                                        </div>
+                                    </div>
+                                    <div class="promo_feedback_text">
+                                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="promo_feedback_track"></div>
+                                    <div class="promo_arrows">
+                                        <div class="promo_feedback_who">
+                                            <div class="who_avatar"></div>
+                                            <div class="who_name">РОМАН ЛЕМАНН / Минск</div>
+                                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
+                                        </div>
+                                    </div>
+                                    <div class="promo_feedback_text">
+                                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="promo_feedback_track"></div>
+                                    <div class="promo_arrows">
+                                        <div class="promo_feedback_who">
+                                            <div class="who_avatar"></div>
+                                            <div class="who_name">РОМАН ЛЕМАНН / Гомель</div>
+                                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
+                                        </div>
+                                    </div>
+                                    <div class="promo_feedback_text">
+                                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                                    </div>
+                                </div>
                     </div>
-                    <div class="promo_feedback_text">
-                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                </section>
+                <section class="promo_feedback promo_feedback2" id="promo_feedback_she">
+                    <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="promo_feedback_track"></div>
+                                    <div class="promo_arrows">
+                                        <div class="promo_feedback_who">
+                                            <div class="who_avatar"></div>
+                                            <div class="who_name">РОМАН ЛЕМАНН / Москва</div>
+                                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
+                                        </div>
+                                    </div>
+                                    <div class="promo_feedback_text">
+                                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="promo_feedback_track"></div>
+                                    <div class="promo_arrows">
+                                        <div class="promo_feedback_who">
+                                            <div class="who_avatar"></div>
+                                            <div class="who_name">РОМАН ЛЕМАНН / Пермь</div>
+                                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
+                                        </div>
+                                    </div>
+                                    <div class="promo_feedback_text">
+                                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="promo_feedback_track"></div>
+                                    <div class="promo_arrows">
+                                        <div class="promo_feedback_who">
+                                            <div class="who_avatar"></div>
+                                            <div class="who_name">РОМАН ЛЕМАНН / Казань</div>
+                                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
+                                        </div>
+                                    </div>
+                                    <div class="promo_feedback_text">
+                                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                                    </div>
+                                </div>
                     </div>
-                </div>
+                </section>
+                <section class="promo_feedback promo_feedback3" id="promo_feedback_action">
+                    <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="promo_feedback_track"></div>
+                                    <div class="promo_arrows">
+                                        <div class="promo_feedback_who">
+                                            <div class="who_avatar"></div>
+                                            <div class="who_name">РОМАН ЛЕМАНН / Киев</div>
+                                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
+                                        </div>
+                                    </div>
+                                    <div class="promo_feedback_text">
+                                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="promo_feedback_track"></div>
+                                    <div class="promo_arrows">
+                                        <div class="promo_feedback_who">
+                                            <div class="who_avatar"></div>
+                                            <div class="who_name">РОМАН ЛЕМАНН / Харьков</div>
+                                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
+                                        </div>
+                                    </div>
+                                    <div class="promo_feedback_text">
+                                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="promo_feedback_track"></div>
+                                    <div class="promo_arrows">
+                                        <div class="promo_feedback_who">
+                                            <div class="who_avatar"></div>
+                                            <div class="who_name">РОМАН ЛЕМАНН / Чернигов</div>
+                                            <div class="who_whom">Заказывал песню на день рождения девушке</div>
+                                        </div>
+                                    </div>
+                                    <div class="promo_feedback_text">
+                                        Добрый день, хочу вам выразить благодарность за такой хит. Моя Амелия была в восторге. Мой подарок был самый лучший из всех. А самое главное что в песне все мои пожелания были учтены, даже место нашего знакомства. Качество песни очень высокое. Очень приятно было общаться с профессионалами, все подск.
+                                    </div>
+                                </div>
+                    </div>
+                </section>
             </div>
         </div>
         <div class="super_offer">
@@ -261,15 +375,16 @@
         </main>
         <footer>
             <div class="logo">
-              <img src="img/footer-logo.png" alt="logo" />
+                <img src="img/footer-logo.png" alt="logo" />
             </div>
             <div class="data">
-              © «**********» - ТОРГОВАЯ МАРКА КОМПАНИИ «**********». ПОЛНОЕ ИЛИ ЧАСТИЧНОЕ КОПИРОВАНИЕ МАТЕРИАЛОВ ДАННОГО САЙТА В КОММЕРЧЕСКИХ ЦЕЛЯХ ЗАПРЕЩЕНО, СОГЛАСОВАНИЕ НА ИСПОЛЬЗОВАНИЕ МАТЕРИАЛОВ ПРОИЗВОДИТСЯ С ИХ АВТОРАМИ. ВСЕ ПРАВА ЗАЩИЩЕНЫ И ПРИНАДЛЕЖАТ КОМПАНИИ «**********». 2015. ИП ************ ИНН *************** ОГРНИП ***************, ЮРИДИЧЕСКИЙ И ПОЧТОВЫЙ АДРЕС: *********** ОБЛАСТЬ, Г. ***********, УЛ. *************, *** КВ. **. ПОДДЕРЖКА: MAIL@EXAMPLE.COM Г. ************, УЛ. ************, ***. ТЕЛ.: 8-800-2000-600
+                © «**********» - ТОРГОВАЯ МАРКА КОМПАНИИ «**********». ПОЛНОЕ ИЛИ ЧАСТИЧНОЕ КОПИРОВАНИЕ МАТЕРИАЛОВ ДАННОГО САЙТА В КОММЕРЧЕСКИХ ЦЕЛЯХ ЗАПРЕЩЕНО, СОГЛАСОВАНИЕ НА ИСПОЛЬЗОВАНИЕ МАТЕРИАЛОВ ПРОИЗВОДИТСЯ С ИХ АВТОРАМИ. ВСЕ ПРАВА ЗАЩИЩЕНЫ И ПРИНАДЛЕЖАТ КОМПАНИИ «**********». 2015. ИП ************ ИНН *************** ОГРНИП ***************, ЮРИДИЧЕСКИЙ И ПОЧТОВЫЙ АДРЕС: *********** ОБЛАСТЬ, Г. ***********, УЛ. *************, *** КВ. **. ПОДДЕРЖКА: MAIL@EXAMPLE.COM Г. ************, УЛ. ************, ***. ТЕЛ.: 8-800-2000-600
             </div>
             <div class="contacts">
-              <div class="telephone">
-                Для звонков:<br/>
-                <span class="number_of_telephone">8-800-2000-60<span>
+                <div class="telephone">
+                    Для звонков:
+                    <br/>
+                    <span class="number_of_telephone">8-800-2000-60<span>
               </div>
               <div class="socials">
                 <a href="#"><img src="img/vk.png" alt="vk"></a>
