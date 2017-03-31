@@ -1,7 +1,46 @@
 $(document).ready(function() {
+
     $("#nav-icon").click(function() {
         $(this).toggleClass("open");
         $(".navigation").toggle();
+    });
+
+    var childsBox = $('.amazingslider-box-1').children();
+    childsBox.each(function(i, e) {
+        if ($(e).attr('class') === undefined) {
+            $(e).remove();
+        }
+    });
+
+    var childsBullet = $('.amazingslider-bullet-wrapper-1').children();
+    childsBullet.each(function(i, e) {
+        $(e).css("display", "none");
+    });
+
+    $(".amazingslider-bottom-shadow-1 img").remove();
+
+    var count = $(".amazingslider-bullet-wrapper-1 div").length;
+    var currentValue = 1;
+    $('.number_of_slide').text(currentValue + " из " + count);
+
+    $(".amazingslider-arrow-right-1").click(function() {
+        currentValue++;
+        if (currentValue > 7) {
+            currentValue = 1;
+            $('.number_of_slide').text(currentValue + " из " + count);
+        } else {
+            $('.number_of_slide').text(currentValue + " из " + count);
+        }
+    });
+
+    $(".amazingslider-arrow-left-1").click(function() {
+        currentValue--;
+        if (currentValue == 0) {
+            currentValue = 7;
+            $('.number_of_slide').text(currentValue + " из " + count);
+        } else {
+            $('.number_of_slide').text(currentValue + " из " + count);
+        }
     });
 });
 
@@ -73,11 +112,3 @@ function openWhom(evt, whom) {
     document.getElementById(whom).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
-var childs = $('.amazingslider-box-1').children();
-console.log(childs);
-childs.each(function(i, e) {
-    if ($(e).attr('class') === undefined) {
-        $(e).remove();
-    }
-});

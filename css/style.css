@@ -638,6 +638,35 @@ main {
     text-align: center;
 }
 
+#amazingslider-wrapper-1{
+  margin: 0px auto 20px !important;
+}
+
+.amazingslider-slider-1{
+  padding: 8px;
+  border-radius: 5px;
+  background: white;
+}
+
+.amazingslider-arrow-right-1 {
+  background: url(../img/video-arrow-right.png) no-repeat !important;
+  height: 70px !important;
+  width: 45px !important;
+}
+
+.amazingslider-arrow-left-1 {
+  background: url(../img/video-arrow-left.png) no-repeat !important;
+  height: 70px !important;
+  width: 45px !important;
+}
+
+.number_of_slide{
+  display: table;
+  margin: 0 auto;
+  font: bold 15pt "UbuntuRegular";
+  color: white;
+}
+
 .feedback {
     padding: 0 20px;
 }
