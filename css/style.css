@@ -884,8 +884,8 @@ footer .contacts {
 }
 
 .modal_form{
-  display: table;
   margin: 0 auto;
+  display: table;
 }
 
 .modal_form .modal_telephone{
@@ -915,7 +915,7 @@ footer .contacts {
 }
 
 .modal_form .save_data{
-  font: 15pt "UbuntuLight";
+  font: 12pt "UbuntuLight";
   color: #afaead;
   display: flex;
 }
@@ -923,4 +923,9 @@ footer .contacts {
 .modal_form .save_data img{
   display: block;
   margin-right: 5px;
+}
+
+.modal_order{
+  display: table;
+  margin: 0 auto;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -403,11 +404,13 @@
           <div class="modal_content">
               <div class="modal_header">Заполните форму</div>
               <form class="modal_form">
-                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Ваше имя" class="modal_name">
                 <input type="text" placeholder="Телефон" class="modal_telephone">
-                <input type="email" placeholder="E-mail">
-                <button type="submit">Заказать звонок</button>
-                <span class="save_data"><img src="img/save_data.png">Гарантируем защиту данных</span>
+                <input type="email" placeholder="E-mail" class="modal_email">
+                <div class="modal_order">
+                  <button type="submit">Заказать звонок</button>
+                  <span class="save_data"><img src="img/save_data.png">Гарантируем защиту данных</span>
+                </div>
               </form>
         </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
