@@ -316,14 +316,14 @@ main {
 
 .promo_feedback .owl-prev {
     background: url(../img/arrow-left.png) no-repeat !important;
-    top: 40%;
-    left: 0;
+    top: 50%;
+    left: -10px;
 }
 
 .promo_feedback .owl-next {
     background: url(../img/arrow-right.png) no-repeat !important;
-    right: 0;
-    top: 40%;
+    right: -10px;
+    top: 50%;
 }
 
 .promo_feedback_who {
