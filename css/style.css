@@ -629,10 +629,12 @@ main {
 
 .count_of_video > h2 {
     font: 30pt "UbuntuMedium";
+    text-align: center;
 }
 
-.count_of_video > span {
+.count_of_video > p {
     font: 15pt "UbuntuLight";
+    text-align: right;
 }
 
 .video > h2 {
@@ -935,153 +937,4 @@ footer .contacts {
 .modal_order {
     display: table;
     margin: 0 auto;
-}
-
-@media only screen and (min-width: 550px) {
-    .modal_content {
-        width: 500px;
-        margin: 0 auto;
-    }
-    .modal_form .modal_name,
-    .modal_form .modal_telephone,
-    .modal_form .modal_email {
-        padding-right: 73px;
-    }
-    .promo_music {
-        width: 532px;
-    }
-    .amazingslider-arrow-right-1 {
-        right: -64px !important;
-    }
-    .amazingslider-arrow-left-1 {
-        left: -64px !important;
-    }
-    .scheme_of_work_button {
-      width: 460px;
-      margin: 0 auto;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .promo_music {
-        margin: 0 auto 0 51px;
-    }
-    .scheme_of_work_steps .apply_online,
-    .scheme_of_work_steps .payment_method,
-    .scheme_of_work_steps .get_song {
-        width: 48%;
-    }
-    .scheme_of_work_steps {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: row;
-        -ms-flex-wrap: wrap;
-        -ms-flex-pack: distribute;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    .global-conclusion p {
-        width: 669px;
-        display: block;
-        margin: 0 auto;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    #nav-icon {
-        display: none;
-    }
-    .navigation {
-        display: block;
-        clear: none;
-        width: 100%;
-    }
-    .navigation a {
-        display: inline-block;
-    }
-    header .contacts {
-        position: static;
-        float: right;
-    }
-    .details_offer .details,
-    .details_offer .super_offer_order {
-        display: inline-block;
-    }
-    .details_offer .details {
-        width: 60%;
-        vertical-align: bottom;
-    }
-    .details_offer .super_offer_order {
-        width: 39%;
-        vertical-align: top;
-    }
-    .details_offer .details p{
-      text-align: left;
-      display: block;
-      margin-left: 90px;
-    }
-    .details_offer .details img{
-    margin-right: 24px;
-    display: block;
-    }
-    .scheme_of_work_steps .apply_online,
-    .scheme_of_work_steps .payment_method,
-    .scheme_of_work_steps .get_song {
-        width: 31%;
-    }
-    .example_songs_feedback {
-        display: inline-block;
-    }
-    .example_songs_feedback img {
-        vertical-align: top;
-    }
-    .accordions {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        display: flex;
-    }
-    .accordion {
-        width: 48%;
-    }
-    footer {
-        display: flex;
-    }
-    footer .logo {
-        float: none;
-    }
-    footer .data {
-        clear: none;
-        width: 100%;
-        margin: 0 10px;
-    }
-    footer .contacts {
-        position: static;
-    }
-}
-
-@media only screen and (min-width: 1020px) {
-    header .contacts {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 10px 20px 10px;
-    }
-}
-
-@media only screen and (min-width: 1250px) {
-    header {
-        position: relative;
-    }
-    header .container {
-        margin: 0 auto;
-        width: 1200px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    .navigation {
-        width: 70%;
-    }
 }
