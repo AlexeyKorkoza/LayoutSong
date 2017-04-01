@@ -106,7 +106,7 @@
     .accordion {
         width: 48%;
     }
-    footer {
+    footer .container{
         display: flex;
     }
     footer .logo {
@@ -136,13 +136,32 @@
         position: relative;
     }
     header .container {
-        margin: 0 auto;
-        width: 1200px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
     .navigation {
         width: 70%;
+    }
+    .example_songs_feedback img:first-of-type{
+        margin-right: 235px;
+    }
+    .details_offer .details img{
+        margin-left: 28px;
+    }
+    .super_offer_order .order{
+        margin-top: 0;
+    }
+     header .container,
+     .super_offer .container,
+    .scheme_of_work .container,
+    .whom_songs .container,
+    .example_songs .container,
+    .video .container,
+    .answer_question .container,
+    .global-conclusion .container,
+    footer .container{
+        margin: 0 auto;
+        width: 1200px;
     }
 }

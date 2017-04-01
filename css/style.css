@@ -412,7 +412,7 @@ main {
     padding: 30px 20px 0 20px;
 }
 
-.scheme_of_work > h1 {
+.scheme_of_work .container > h1 {
     font: bold 35pt "UbuntuMedium";
     color: #373737;
     text-align: center;
@@ -637,7 +637,7 @@ main {
     text-align: right;
 }
 
-.video > h2 {
+.video .container > h2 {
     font: bold 40pt "UbuntuMedium";
     display: block;
     margin: 70px 0 15px 0;
