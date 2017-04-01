@@ -5,6 +5,7 @@ $(document).ready(function() {
         $(".navigation").toggle();
     });
 
+    /* videoslider */
     var childsBox = $('.amazingslider-box-1').children();
     childsBox.each(function(i, e) {
         if ($(e).attr('class') === undefined) {
@@ -42,6 +43,27 @@ $(document).ready(function() {
             $('.number_of_slide').text(currentValue + " из " + count);
         }
     });
+
+    /* accordion */
+    function close_accordion_section() {
+        $('.accordion .accordion_title').removeClass('active');
+        $('.accordion .accordion-panel').slideUp(500).removeClass('open');
+    }
+
+    $('.accordion_title').click(function(e) {
+        var currentAttrValue = $(this).attr('href');
+
+        if($(e.target).is('.active')) {
+            close_accordion_section();
+        }else {
+            close_accordion_section();
+            $(this).addClass('active');
+            $('.accordions ' + currentAttrValue).slideDown(500).addClass('open');
+        }
+
+        e.preventDefault();
+    });
+
 });
 
 /* feedback-slider */
@@ -67,7 +89,7 @@ $(".feedback_slider .owl-prev").empty();
 $(".feedback_slider .owl-next").empty();
 $(".feedback_slider .owl-dots").remove();
 
-/* promo_feedback-slider */
+/* promo_feedback slider and tabs*/
 $('.promo_feedback .owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
@@ -84,21 +106,6 @@ $(".promo_feedback .owl-prev").empty();
 $(".promo_feedback .owl-next").empty();
 $(".promo_feedback .owl-dots").remove();
 
-var acc = document.getElementsByClassName("answer_question_accordion");
-
-for (var i = 0; i < acc.length; i++) {
-    acc[i].onclick = function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            document.getElementsByClassName("arrow-bottom")[0].style.transition = "0.4s";
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    }
-}
-
 function openWhom(evt, whom) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("promo_feedback");
@@ -113,6 +120,7 @@ function openWhom(evt, whom) {
     evt.currentTarget.className += " active";
 }
 
+/* modal */
 var modal = document.getElementById('Modal');
 
 window.onclick = function(event) {

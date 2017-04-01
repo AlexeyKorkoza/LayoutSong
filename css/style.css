@@ -752,12 +752,11 @@ main {
 
 .answer_question .accordion {
     position: relative;
-    ;
+    margin-bottom: 50px;
 }
 
-.answer_question .accordion .answer_question_accordion {
+.answer_question .accordion .accordion_title {
     position: relative;
-    margin-bottom: 50px;
     background: #49b8d1;
     color: white;
     font: 14pt "UbuntuRegular";
@@ -768,20 +767,25 @@ main {
     height: 80px;
     outline: none;
     width: 100%;
-    ;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
-.answer_question .accordion .answer_question_accordion.active {
+.answer_question .accordion .accordion_title span{
+}
+
+.answer_question .accordion .accordion_title.active {
     margin-bottom: 0;
 }
 
-.answer_question .accordion .answer_question_accordion img {
+.answer_question .accordion .accordion_title img {
     position: absolute;
     right: 40px;
     top: 35px;
 }
 
-.answer_question .accordion .answer_question_accordion.active img {
+.answer_question .accordion .accordion_title.active img {
     -webkit-transition: 0.4s;
     transition: 0.4s;
     -webkit-transform: rotate(-180deg);
@@ -797,7 +801,6 @@ main {
     -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
     transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
     display: none;
-    margin-bottom: 50px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     position: relative;
