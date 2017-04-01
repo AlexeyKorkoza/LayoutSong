@@ -114,7 +114,7 @@
     }
     footer .data {
         clear: none;
-        width: 100%;
+        width: 60%;
         margin: 0 10px;
     }
     footer .contacts {
@@ -140,6 +140,9 @@
         display: -ms-flexbox;
         display: flex;
     }
+    header .contacts{
+        position: static;
+    }
     .navigation {
         width: 70%;
     }
@@ -151,6 +154,10 @@
     }
     .super_offer_order .order {
         margin-top: 0;
+    }
+    footer .logo img{
+        position: relative;
+        top: -5px;
     }
     header .container,
     .super_offer .container,
