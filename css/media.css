@@ -72,7 +72,6 @@
     }
     .details_offer .details {
         width: 60%;
-        vertical-align: bottom;
     }
     .details_offer .super_offer_order {
         width: 39%;
@@ -119,6 +118,9 @@
     }
     footer .contacts {
         position: static;
+    }
+    .promo_header1{
+        width: 100%;
     }
 }
 

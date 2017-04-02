@@ -395,16 +395,16 @@ main {
 }
 
 .order {
-    background: #49b8d1;
     color: white;
     border: none;
-    border-bottom: 3px solid #388da0;
-    border-radius: 10px;
     font: 25pt "UbuntuMedium";
     padding: 32px 62px;
     margin: 20px auto 0;
     display: table;
     cursor: pointer;
+    border-bottom: 3px solid #388da0;
+    background: #49b8d1;
+    border-radius: 10px;
 }
 
 .scheme_of_work {
@@ -942,4 +942,20 @@ footer .contacts {
 .modal_order {
     display: table;
     margin: 0 auto;
+}
+
+.hvr-sweep-to-bottom:before{
+  background:#27ad5f;
+  padding-bottom:5px;
+  border-radius:10px;
+}
+
+.hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
+  color: white;
+  border-radius: 10px;
+  border-bottom-color: #27ad5f;
+}
+.hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
 }
