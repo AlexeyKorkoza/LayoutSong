@@ -2,27 +2,22 @@
   font-family: 'UbuntuLight';
   src: url('../fonts/Ubuntu/ubuntu.light.ttf');
 }
-
 @font-face {
   font-family: 'UbuntuBold';
   src: url('../fonts/Ubuntu/ubuntu.bold.ttf');
 }
-
 @font-face {
   font-family: 'UbuntuRegular';
   src: url('../fonts/Ubuntu/ubuntu.regular.ttf');
 }
-
 @font-face {
   font-family: 'UbuntuMedium';
   src: url('../fonts/Ubuntu/ubuntu.medium.ttf');
 }
-
 @font-face {
   font-family: 'UbuntuItalic';
   src: url('../fonts/Ubuntu/ubuntu.italic.ttf');
 }
-
 @font-face {
   font-family: 'RobotoThin';
   src: url('../fonts/RobotoThin/roboto-thin.ttf');
