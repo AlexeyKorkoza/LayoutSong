@@ -4,12 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Song</title>
-
+    <!-- <link rel="stylesheet" type="text/css" href="build/style.min.css"> -->
     <link rel="stylesheet" href="node_modules/hover.css/css/hover-min.css">
     <link rel="stylesheet" href="css/amazingslider-1.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/media.css">
@@ -228,23 +227,37 @@
                 </div>
                 <div class="scheme_of_work_steps">
                     <div class="apply_online">
-                        <div class="apply_online_icon"><img src="img/pen.png" alt="pen"></div>
-                        <p class="apply_online_action">Заполни анкету</p>
-                        <p class="apply_online_text">Тебе совсем не нужно уметь петь! Доверь это нашим профессионалам! Просто напиши свои пожелания! Например: имена, события из вашей жизни и всё, что ты захочешь в ней услышать! Песня будет посвящена от твоего имени в адрес твоего любимого человека!</p>
+                        <div class="apply_online_icon_container">
+                            <div class="apply_online_icon"><img src="img/pen.png" alt="pen"></div>
+                            <p class="apply_online_action">Заполни анкету</p>
+                        </div>
+                        <div class="apply_online_text">
+                            <p>Тебе совсем не нужно уметь петь! Доверь это нашим профессионалам! Просто напиши свои пожелания! Например: имена, события из вашей жизни и всё, что ты захочешь в ней услышать! Песня будет посвящена от твоего имени в адрес твоего любимого человека!</p>
+                        </div>
                     </div>
                     <div class="payment_method">
-                        <div class="payment_method_icon"><img src="img/dollar.png" alt="dollar"></div>
-                        <p class="payment_method_action">Выбери любой способ оплаты</p>
-                        <p class="payment_method_text">Ты сможешь оплатить свой заказ на нашем сайте всего лишь в 2 клика! Например банковской картой не выходя из дома! Мы принимаем более 50 видов разных платежей! Мы гарантируем тебе 100% безопасность твоих данных и легкость оплаты!</p>
+                        <div class="payment_method_icon_container">
+                            <div class="payment_method_icon"><img src="img/dollar.png" alt="dollar"></div>
+                            <p class="payment_method_action">Выбери любой способ оплаты</p>
+                        </div>
+                        <div class="payment_method_text">
+                            <p>Ты сможешь оплатить свой заказ на нашем сайте всего лишь в 2 клика! Например банковской картой не выходя из дома! Мы принимаем более 50 видов разных платежей! Мы гарантируем тебе 100% безопасность твоих данных и легкость оплаты!</p>
+                        </div>
                     </div>
                     <div class="get_song">
-                        <div class="get_song_icon"><img src="img/o'clock.png" alt="o'clock"></div>
-                        <p class="get_song_action">Получи готовую песню</p>
-                        <p class="get_song_text">Сразу же после оплаты за твой заказ садятся наши профессиональные артисты и композиторы! Всё будет сделано на высшем уровне! Твоя песня будет записана на одной из лучших студий звукозаписи Москвы! Когда твоя песня будет готова - мы пришлем ее на твою электронную почту!</p>
+                        <div class="get_song_icon_container">
+                            <div class="get_song_icon"><img src="img/o'clock.png" alt="o'clock"></div>
+                            <p class="get_song_action">Получи готовую песню</p>
+                        </div>
+                        <div class="get_song_text">
+                            <p>Сразу же после оплаты за твой заказ садятся наши профессиональные артисты и композиторы! Всё будет сделано на высшем уровне! Твоя песня будет записана на одной из лучших студий звукозаписи Москвы! Когда твоя песня будет готова - мы пришлем ее на твою электронную почту!</p>
+                        </div>
                     </div>
                 </div>
                 <div class="emotions">
-                    <div class="emotions_avatar"></div>
+                    <div class="emotions_avatar">
+                      <img src="img/avatar-emotion.png" alt="avatar-emotion">
+                    </div>
                     <div class="emotions_text">
                         <h2>ЭМОЦИИ ЛЮБИМОГО ЧЕЛОВЕКА - БЕСЦЕННЫ!</h2>
                         <p>В наше время практически невозможно по-настоящему удивить и запомниться своим подарком! Люди дарят друг другу одни и те же вещи и поступки, забывая о том, что настоящий подарок должен быть сделать с душой, от чистого сердца! А в этом мы тебе поможем как никто другой!</p>
@@ -442,6 +455,7 @@
               </div>
             </div>
         </footer>
+
         <!-- The Modal -->
         <div id="Modal" class="modal">
           <div class="modal_content">
@@ -456,12 +470,7 @@
                     </div>
                     </form>
                 </div>
-                <script src="node_modules/jquery/dist/jquery.min.js"></script>
-                <script src="js/owl.carousel.min.js"></script>
-                <! --Video -->
-                <script src="js/slider/amazingslider.js"></script>
-                <script src="js/slider/initslider-1.js"></script>
-                <script src="js/main.js"></script>
+                <script src="build/scripts.min.js"></script>
 </body>
 
 </html>

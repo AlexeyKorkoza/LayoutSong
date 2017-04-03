@@ -66,6 +66,13 @@
         position: static;
         float: right;
     }
+    .promo_header1 {
+        width: 100%;
+    }
+    .emotions{
+        margin: 0 auto;
+        width: 805px;
+    }
     .details_offer .details,
     .details_offer .super_offer_order {
         display: inline-block;
@@ -85,11 +92,6 @@
     .details_offer .details img {
         margin-right: 24px;
         display: block;
-    }
-    .scheme_of_work_steps .apply_online,
-    .scheme_of_work_steps .payment_method,
-    .scheme_of_work_steps .get_song {
-        width: 31%;
     }
     .example_songs_feedback {
         display: inline-block;
@@ -119,9 +121,6 @@
     footer .contacts {
         position: static;
     }
-    .promo_header1{
-        width: 100%;
-    }
 }
 
 @media only screen and (min-width: 1020px) {
@@ -142,7 +141,7 @@
         display: -ms-flexbox;
         display: flex;
     }
-    header .contacts{
+    header .contacts {
         position: static;
     }
     .navigation {
@@ -157,7 +156,7 @@
     .super_offer_order .order {
         margin-top: 0;
     }
-    footer .logo img{
+    footer .logo img {
         position: relative;
         top: -23px;
     }
@@ -182,5 +181,49 @@
     .rates .container {
         margin: 0 auto;
         width: 1335px;
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+    .scheme_of_work .container {
+        width: 1440px;
+    }
+    .scheme_of_work_steps .apply_online,
+    .scheme_of_work_steps .payment_method,
+    .scheme_of_work_steps .get_song {
+        width: 31%;
+    }
+    .apply_online_action {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .payment_method_icon_container {
+        border-right: 1px solid #49b8d1;
+        border-left: 1px solid #49b8d1;
+    }
+    .apply_online_icon,
+    .payment_method_icon,
+    .get_song_icon {
+        margin: auto;
+        width: auto;
+        background-position: center;
+        padding: 0 120px;
+    }
+    .payment_method_icon img {
+        right: 45%;
+    }
+    .apply_online_icon img,
+    .get_song_icon img{
+        right: 42%;
+    }
+    .apply_online_action,
+    .payment_method_action,
+    .get_song_action{
+        padding: 0 120px;
+    }
+    .apply_online_text p,
+    .payment_method_text p,
+    .get_song_text p {
+        padding: 0 100px;
     }
 }

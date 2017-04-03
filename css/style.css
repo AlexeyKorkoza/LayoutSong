@@ -464,16 +464,16 @@ main {
 .get_song_action {
     color: #373737;
     margin-top: 15px;
-    font: bold 25pt "UbuntuMedium";
-    text-align: center;
+    font: bold 17pt "UbuntuMedium";
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.apply_online_text,
-.payment_method_text,
-.get_song_text {
+.apply_online_text p,
+.payment_method_text p,
+.get_song_text p {
     color: #373737;
-    font: 15pt "UbuntuLight";
+    font: 10pt "UbuntuRegular";
 }
 
 .get_song {
@@ -489,20 +489,25 @@ main {
 }
 
 .emotions_avatar {
-    border-radius: 50%;
     margin-right: 9px;
+    float: left;
+}
+
+.emotions_avatar img{
+    border-radius: 50%;
 }
 
 .emotions_text h2 {
     color: #49b8d1;
     ;
-    font: 28pt "UbuntuRegular";
+    font: 20pt "UbuntuRegular";
     text-decoration: underline;
 }
 
 .emotions_text p {
     color: #373737;
-    font: 18pt "UbuntuLight";
+    font: 13pt "UbuntuLight";
+    text-align: left;
 }
 
 .scheme_of_work_order {
@@ -741,7 +746,8 @@ main {
     padding: 120px 20px 0 20px;
     background: url(../img/background-feedback.png) no-repeat;
     width: 1;
-    background-size: cover;;
+    background-size: cover;
+    ;
 }
 
 .answer_question h1 {
@@ -774,8 +780,7 @@ main {
     align-items: center;
 }
 
-.answer_question .accordion .accordion_title span{
-}
+.answer_question .accordion .accordion_title span {}
 
 .answer_question .accordion .accordion_title.active {
     margin-bottom: 0;
@@ -944,18 +949,23 @@ footer .contacts {
     margin: 0 auto;
 }
 
-.hvr-sweep-to-bottom:before{
-  background:#27ad5f;
-  padding-bottom:5px;
-  border-radius:10px;
+.hvr-sweep-to-bottom:before {
+    background: #27ad5f;
+    padding-bottom: 5px;
+    border-radius: 10px;
 }
 
-.hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
-  color: white;
-  border-radius: 10px;
-  border-bottom-color: #27ad5f;
+.hvr-sweep-to-bottom:hover,
+.hvr-sweep-to-bottom:focus,
+.hvr-sweep-to-bottom:active {
+    color: white;
+    border-radius: 10px;
+    border-bottom-color: #27ad5f;
 }
-.hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
+
+.hvr-sweep-to-bottom:hover:before,
+.hvr-sweep-to-bottom:focus:before,
+.hvr-sweep-to-bottom:active:before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
