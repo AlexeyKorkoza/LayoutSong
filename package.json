@@ -24,7 +24,24 @@
   },
   "homepage": "https://github.com/AlexeyKorkoza/LayoutSong#readme",
   "dependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-jscpd": "0.0.7",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
     "hover.css": "^2.2.0",
-    "jquery": "^3.2.1"
+    "imagemin-pngquant": "^5.0.0",
+    "jquery": "^3.2.1",
+    "owl.carousel": "^2.2.0"
   }
 }
