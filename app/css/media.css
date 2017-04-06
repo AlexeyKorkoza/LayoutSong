@@ -22,6 +22,7 @@
         margin: 0 auto;
     }
 }
+
 @media only screen and (min-width: 768px) {
     .promo_music {
         margin: 0 auto 0 51px;
@@ -47,7 +48,11 @@
         display: block;
         margin: 0 auto;
     }
+    .super_offer .container {
+        top: -57px;
+    }
 }
+
 @media only screen and (min-width: 992px) {
     #nav-icon {
         display: none;
@@ -70,6 +75,9 @@
     .emotions {
         margin: 0 auto;
         width: 805px;
+    }
+    .super_offer .container {
+        top: -70px;
     }
     .details_offer .details,
     .details_offer .super_offer_order {
@@ -120,6 +128,7 @@
         position: static;
     }
 }
+
 @media only screen and (min-width: 1020px) {
     header .contacts {
         position: absolute;
@@ -128,6 +137,7 @@
         margin: 10px 20px 10px;
     }
 }
+
 @media only screen and (min-width: 1250px) {
     header {
         position: relative;
@@ -168,7 +178,11 @@
         margin: 0 auto;
         width: 1200px;
     }
+    .super_offer .container {
+        top: -87px;
+    }
 }
+
 @media only screen and (min-width: 1350px) {
     .promo .container,
     .feedback .container,
@@ -178,6 +192,7 @@
         width: 1335px;
     }
 }
+
 @media only screen and (min-width: 1450px) {
     .scheme_of_work .container {
         width: 1440px;
@@ -219,5 +234,8 @@
     .payment_method_text p,
     .get_song_text p {
         padding: 0 100px;
+    }
+    .super_offer .container {
+        top: -100px;
     }
 }

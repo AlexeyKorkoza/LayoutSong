@@ -805,3 +805,26 @@ footer .contacts {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
+
+.super_offer .container{
+        overflow: hidden;
+    background: #ffde00;
+    -ms-transform: rotate(-3deg);
+    -ms-transform-origin: 83% 215%;
+    webkit-transform: rotate(-3deg);
+    -webkit-transform-origin: 83% 215%;
+    transform: rotate(-3deg);
+    transform-origin: 83% 215%;
+    position: relative;
+    top: -40px;
+}
+
+.super_offer{
+    background: none;
+}
+
+.super_offer .container h1,
+.super_offer .container h2,
+.super_offer .container .details_offer{
+    transform: rotate(3deg);
+}

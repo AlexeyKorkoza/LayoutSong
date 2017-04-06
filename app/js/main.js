@@ -62,6 +62,10 @@ $(document).ready(function() {
 
     e.preventDefault();
   });
+
+  var htmlWidth = $("html").innerWidth();
+  $(".super_offer .container").css("width", htmlWidth + 100);
+
 });
 
 /* feedback-slider */

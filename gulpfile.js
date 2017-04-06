@@ -29,7 +29,9 @@ gulp.task('scripts', function() {
     return gulp.src([
             'node_modules/jquery/dist/jquery.min.js',
             'node_modules/owl.carousel/dist/owl.carousel.min.js',
-            'app/js/*.js'
+            'app/js/amazingslider.js',
+            'app/js/froogaloop2.min.js',
+            'app/js/initslider-1.js'
         ])
         .on('error', console.log)
         .pipe(concat('scripts.min.js'))
@@ -45,7 +47,6 @@ gulp.task('css', function() {
             'node_modules/owl.carousel/dist/assets/owl.theme.default.min.css',
             'app/css/amazingslider-1.css',
             'app/css/fonts.css',
-            'app/css/style.css',
             'app/css/media.css'
         ])
         .on('error', console.log)
