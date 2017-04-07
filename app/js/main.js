@@ -18,6 +18,7 @@ $(document).ready(function() {
     });
 
     $(".amazingslider-bottom-shadow-1 img").remove();
+    $(".amazingslider-text-1 .amazingslider-title-1").remove();
 
     var count = $(".amazingslider-bullet-wrapper-1 div").length;
     var currentValue = 1;
@@ -43,6 +44,11 @@ $(document).ready(function() {
         }
     });
 
+    var htmlWidth = $("html").innerWidth();
+    if(htmlWidth < 625){
+        $("#amazingslider-1").css({"width":"", "width": htmlWidth - 100});
+    }
+
     /* accordion */
     function close_accordion_section() {
         $(".accordion .accordion_title").removeClass("active");
@@ -63,6 +69,15 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    var super_offerWidth = $(".super_offer").innerWidth();
+    $(".super_offer .container").css("width", super_offerWidth + 40);
+    if (super_offerWidth < 1250) {
+        var details_offerWidth = $(".details_offer").innerWidth();
+        $(".super_offer .container h1").css({ "margin-left": (super_offerWidth / 10.9), "margin-right": (super_offerWidth / 10.9) });
+        $(".super_offer .container h2").css({ "margin-left": (super_offerWidth / 10.9), "margin-right": (super_offerWidth / 10.9) });
+        $(".details").css({ "margin-left": (super_offerWidth / 10.9), "margin-right": (super_offerWidth / 10.9) });
+    }
+    $(".details_offer").css("display", "flex");
 
 });
 
@@ -135,14 +150,3 @@ document.onkeydown = function(evt) {
         modal.style.display = "none";
     }
 };
-
-
-var htmlWidth = $(".super_offer").innerWidth();
-$(".super_offer .container").css("width", htmlWidth + 40);
-if (htmlWidth < 1250) {
-    var details_offerWidth = $(".details_offer").innerWidth();
-    $(".super_offer .container h1").css({ "margin-left": (htmlWidth / 10.9), "margin-right": (htmlWidth / 10.9) });
-    $(".super_offer .container h2").css({ "margin-left": (htmlWidth / 10.9), "margin-right": (htmlWidth / 10.9) });
-    $(".details").css({ "margin-left": (htmlWidth / 10.9), "margin-right": (htmlWidth / 10.9) });
-}
-$(".details_offer").css("display", "flex");

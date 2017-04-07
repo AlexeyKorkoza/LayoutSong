@@ -1,3 +1,10 @@
+@media only screen and (min-width: 400px) {
+    header .container .contacts .telephone,
+    header .container .contacts .socials {
+        float: left;
+    }
+}
+
 @media only screen and (min-width: 550px) {
     .modal_content {
         width: 500px;
@@ -12,10 +19,10 @@
         width: 532px;
     }
     .amazingslider-arrow-right-1 {
-        right: -64px !important;
+        right: -50px !important;
     }
     .amazingslider-arrow-left-1 {
-        left: -64px !important;
+        left: -50px !important;
     }
     .scheme_of_work_button {
         width: 460px;
@@ -53,7 +60,7 @@
     .super_offer .container {
         top: -57px;
     }
-    .example_songs p{
+    .example_songs p {
         width: 636px;
         margin: 0 auto 75px auto;
     }
