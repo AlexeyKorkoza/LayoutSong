@@ -477,19 +477,19 @@ main {
     text-align: center;
 }
 .example_songs p {
-    font: 25pt "UbuntuLight";
+    font: 17pt "UbuntuLight";
     color: #373737;
     display: block;
-    margin-bottom: 45px;
+    margin-bottom: 75px;
 }
 .example_songs_feedback {
     margin-top: 110px;
 }
 .example_songs_line {
-   /*  background: url(../img/example_songs_line.png) no-repeat; */
+    background: url(../img/example_songs_line.png) no-repeat;
     height: 10px;
     position: relative;
-    /* width: 570px; */
+    width: 570px;
     margin: 0 auto;
 }
 .example_songs_line_man,
@@ -524,7 +524,7 @@ main {
 .example_songs_line_woman span {
     color: #d207a4;
     left: -55px;
-    top: 40px;
+    top: -40px;
 }
 .example_songs_line_action span {
     color: #70c45d;

@@ -53,6 +53,10 @@
     .super_offer .container {
         top: -57px;
     }
+    .example_songs p{
+        width: 636px;
+        margin: 0 auto 75px auto;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -125,6 +129,15 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+    }
+    .example_songs_line_man span {
+        left: -135px;
+        top: 0;
+    }
+    .example_songs_line_action span {
+        top: 40px;
+        left: -90px;
+        width: 245px;
     }
     .accordion {
         width: 48%;
