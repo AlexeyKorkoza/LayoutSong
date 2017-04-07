@@ -43,7 +43,7 @@
         justify-content: space-around;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-                flex-direction: row;
+        flex-direction: row;
     }
     .global-conclusion p {
         width: 669px;
@@ -107,21 +107,21 @@
     .example_songs_feedback img {
         vertical-align: top;
     }
-    .order{
+    .order {
         margin: 0;
     }
-    .details_offer{
+    .details_offer {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
     }
     .accordions {
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -171,6 +171,55 @@
     .navigation {
         width: 70%;
     }
+    .scheme_of_work_steps .apply_online,
+    .scheme_of_work_steps .payment_method,
+    .scheme_of_work_steps .get_song {
+        width: 31%;
+    }
+    .apply_online_action,
+    .get_song_action {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .payment_method_icon_container {
+        border-right: 1px solid #49b8d1;
+        border-left: 1px solid #49b8d1;
+    }
+    .apply_online_icon,
+    .payment_method_icon,
+    .get_song_icon {
+        margin: auto;
+        width: auto;
+        background-position: center;
+    }
+    .apply_online_icon {
+        padding-right: 120px;
+    }
+    .payment_method_icon {
+        padding: 0 120px;
+    }
+    .get_song_icon {
+        padding-left: 120px;
+    }
+    .payment_method_icon img {
+        right: 45%;
+    }
+    .apply_online_icon img,
+    .get_song_icon img {
+        right: 42%;
+    }
+    .apply_online_action,
+    .get_song_action {
+        padding: 0 59px;
+    }
+    .payment_method_action {
+        padding: 0 100px;
+    }
+    .apply_online_text p,
+    .payment_method_text p,
+    .get_song_text p {
+        padding: 0 70px;
+    }
     .example_songs_feedback img:first-of-type {
         margin-right: 235px;
     }
@@ -185,7 +234,7 @@
         top: -23px;
     }
     header .container,
-    .super_offer .super_offer_content
+    .super_offer .super_offer_content,
     .scheme_of_work .container,
     .whom_songs .container,
     .example_songs .container,
@@ -212,47 +261,6 @@
 }
 
 @media only screen and (min-width: 1450px) {
-    .scheme_of_work .container {
-        width: 1440px;
-    }
-    .scheme_of_work_steps .apply_online,
-    .scheme_of_work_steps .payment_method,
-    .scheme_of_work_steps .get_song {
-        width: 31%;
-    }
-    .apply_online_action {
-        display: block;
-        margin-bottom: 40px;
-    }
-    .payment_method_icon_container {
-        border-right: 1px solid #49b8d1;
-        border-left: 1px solid #49b8d1;
-    }
-    .apply_online_icon,
-    .payment_method_icon,
-    .get_song_icon {
-        margin: auto;
-        width: auto;
-        background-position: center;
-        padding: 0 120px;
-    }
-    .payment_method_icon img {
-        right: 45%;
-    }
-    .apply_online_icon img,
-    .get_song_icon img {
-        right: 42%;
-    }
-    .apply_online_action,
-    .payment_method_action,
-    .get_song_action {
-        padding: 0 120px;
-    }
-    .apply_online_text p,
-    .payment_method_text p,
-    .get_song_text p {
-        padding: 0 100px;
-    }
     .super_offer .container {
         top: -100px;
     }

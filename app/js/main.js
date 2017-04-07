@@ -139,8 +139,10 @@ document.onkeydown = function(evt) {
 
 var htmlWidth = $(".super_offer").innerWidth();
 $(".super_offer .container").css("width", htmlWidth + 40);
-var details_offerWidth = $(".details_offer").innerWidth();
-$(".super_offer .container h1").css({ "margin-left": (htmlWidth / 10.9), "margin-right": (htmlWidth / 10.9) });
-$(".super_offer .container h2").css({ "margin-left": (htmlWidth / 10.9), "margin-right": (htmlWidth / 10.9) });
-$(".details").css({ "margin-left": (htmlWidth / 10.9), "margin-right": (htmlWidth / 10.9) });
+if (htmlWidth < 1250) {
+    var details_offerWidth = $(".details_offer").innerWidth();
+    $(".super_offer .container h1").css({ "margin-left": (htmlWidth / 10.9), "margin-right": (htmlWidth / 10.9) });
+    $(".super_offer .container h2").css({ "margin-left": (htmlWidth / 10.9), "margin-right": (htmlWidth / 10.9) });
+    $(".details").css({ "margin-left": (htmlWidth / 10.9), "margin-right": (htmlWidth / 10.9) });
+}
 $(".details_offer").css("display", "flex");
