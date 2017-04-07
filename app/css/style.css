@@ -21,12 +21,8 @@ header {
     width: 60px;
     height: 45px;
     -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
     float: left;
@@ -42,12 +38,8 @@ header {
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
 }
 #nav-icon span:nth-child(1) {
@@ -62,8 +54,6 @@ header {
 #nav-icon.open span:nth-child(1) {
     top: 18px;
     -webkit-transform: rotate(135deg);
-    -moz-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
     transform: rotate(135deg);
 }
 #nav-icon.open span:nth-child(2) {
@@ -73,8 +63,6 @@ header {
 #nav-icon.open span:nth-child(3) {
     top: 18px;
     -webkit-transform: rotate(-135deg);
-    -moz-transform: rotate(-135deg);
-    -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
 .navigation {
@@ -176,6 +164,8 @@ main {
     background: url(../img/background-music-whom.png) no-repeat;
     padding: 15px 17px 15px 15px;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .promo_music_whom li {
@@ -222,6 +212,14 @@ main {
     padding: 0 32px 0 29px;
     color: #70c45d;
     vertical-align: top;
+}
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 @keyframes fadeIn {
     from {
@@ -294,23 +292,50 @@ main {
     padding: 0 30px;
 }
 .super_offer {
-    background: #ffde00;
-    padding: 0 20px;
+   background: none;
+    padding: 0;
 }
 .super_offer .container {
+
+}
+
+.super_offer .container{
+    overflow: hidden;
+    background: #ffde00;
+    -ms-transform: rotate(-3deg);
+    -ms-transform-origin: 80% 100%;
+    -webkit-transform: rotate(-3deg);
+    -webkit-transform-origin: 80% 100%;
+    transform: rotate(-3deg);
+    transform-origin: 80% 100%;
+    position: relative;
+    top: -40px;
     padding: 45px 0;
 }
+
 .super_offer h1 {
     font: bold 30pt "UbuntuMedium";
-    text-align: center;
+    text-align: left;
     color: #373737;
 }
 .super_offer .discount {
     font: 25pt "UbuntuRegular";
-    text-align: center;
+    text-align: left;
     color: #373737;
     margin-bottom: 78px;
 }
+.details_offer{
+    display: table;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
 .details img {
     margin-left: 20px;
     float: left;
@@ -326,7 +351,7 @@ main {
     font: 25pt "UbuntuMedium";
     padding: 32px 62px;
     margin: 20px auto 0;
-    display: table;
+    display: table !important;
     cursor: pointer;
     border-bottom: 3px solid #388da0;
     background: #49b8d1;
@@ -421,7 +446,7 @@ main {
 }
 .scheme_of_work_order {
     display: table;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 .whom_songs {
     padding: 100px 20px 37px 20px;
@@ -461,10 +486,10 @@ main {
     margin-top: 110px;
 }
 .example_songs_line {
-    background: url(../img/example_songs_line.png) no-repeat;
+   /*  background: url(../img/example_songs_line.png) no-repeat; */
     height: 10px;
     position: relative;
-    width: 570px;
+    /* width: 570px; */
     margin: 0 auto;
 }
 .example_songs_line_man,
@@ -640,8 +665,12 @@ main {
     outline: none;
     width: 100%;
     text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .answer_question .accordion .accordion_title span {} .answer_question .accordion .accordion_title.active {
                                                          margin-bottom: 0;
@@ -661,9 +690,6 @@ main {
     background: white;
     overflow: hidden;
     -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-    -moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-    -o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-    -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
     transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
     display: none;
     border-bottom-left-radius: 25px;
@@ -777,6 +803,8 @@ footer .contacts {
 .modal_form .save_data {
     font: 12pt "UbuntuLight";
     color: #afaead;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .modal_form .save_data img {
@@ -806,25 +834,18 @@ footer .contacts {
     transform: scaleY(1);
 }
 
-.super_offer .container{
-        overflow: hidden;
-    background: #ffde00;
-    -ms-transform: rotate(-3deg);
-    -ms-transform-origin: 83% 215%;
-    webkit-transform: rotate(-3deg);
-    -webkit-transform-origin: 83% 215%;
-    transform: rotate(-3deg);
-    transform-origin: 83% 215%;
-    position: relative;
-    top: -40px;
-}
 
 .super_offer{
-    background: none;
+
+}
+
+.details_offer {
+
 }
 
 .super_offer .container h1,
 .super_offer .container h2,
 .super_offer .container .details_offer{
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
 }

@@ -47,7 +47,6 @@ gulp.task('css', function() {
             'node_modules/owl.carousel/dist/assets/owl.theme.default.min.css',
             'app/css/amazingslider-1.css',
             'app/css/fonts.css',
-            'app/css/media.css'
         ])
         .on('error', console.log)
         .pipe(concat('styles.min.css'))

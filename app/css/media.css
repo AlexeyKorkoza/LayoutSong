@@ -41,7 +41,9 @@
         -ms-flex-pack: distribute;
         flex-wrap: wrap;
         justify-content: space-around;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+                flex-direction: row;
     }
     .global-conclusion p {
         width: 669px;
@@ -105,15 +107,31 @@
     .example_songs_feedback img {
         vertical-align: top;
     }
+    .order{
+        margin: 0;
+    }
+    .details_offer{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
     .accordions {
-        flex-wrap: wrap;
-        justify-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .accordion {
         width: 48%;
     }
     footer .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     footer .logo {
@@ -167,7 +185,7 @@
         top: -23px;
     }
     header .container,
-    .super_offer .container,
+    .super_offer .super_offer_content
     .scheme_of_work .container,
     .whom_songs .container,
     .example_songs .container,
