@@ -159,11 +159,15 @@
     }
     footer .data {
         clear: none;
-        width: 60%;
+        width: 55%;
         margin: 0 10px;
     }
     footer .contacts {
         position: static;
+    }
+    footer .contacts .telephone,
+    footer .contacts .socials{
+        display: inline-block;
     }
 }
 

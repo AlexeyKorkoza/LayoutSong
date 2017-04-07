@@ -901,7 +901,7 @@ footer .data {
 
 footer .contacts {
     margin: 0 20px 0 0;
-    top: 80px;
+    top: 55px;
 }
 
 .modal {
@@ -1001,10 +1001,6 @@ footer .contacts {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
-
-.super_offer {}
-
-.details_offer {}
 
 .super_offer .container h1,
 .super_offer .container h2,
