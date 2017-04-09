@@ -326,23 +326,24 @@ main {
 
 .promo_feedback .owl-prev {
     background: url(../img/arrow-left.png) no-repeat !important;
-    top: 50%;
+    top: 32%;
     left: -10px;
 }
 
 .promo_feedback .owl-next {
     background: url(../img/arrow-right.png) no-repeat !important;
     right: -10px;
-    top: 50%;
+    top: 32%;
 }
 
 .promo_feedback_who {
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .who_name {
     font: 10pt "UbuntuMedium";
     color: black;
+    padding-top: 20px;
 }
 
 .who_whom {
@@ -355,22 +356,20 @@ main {
     height: 79px;
     width: 79px;
     float: left;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0 10px 16px 10px;
 }
 
 .promo_feedback_text {
     color: black;
     font: 10pt "UbuntuLight";
     padding: 0 30px;
+    clear: both;
 }
 
 .super_offer {
     background: none;
     padding: 0;
 }
-
-.super_offer .container {}
 
 .super_offer .container {
     overflow: hidden;

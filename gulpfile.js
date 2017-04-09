@@ -29,6 +29,8 @@ gulp.task('js', function() {
     return gulp.src([
             'node_modules/jquery/dist/jquery.min.js',
             'node_modules/owl.carousel/dist/owl.carousel.min.js',
+            'node_modules/mediaelement/build/mediaelementplayer.min.js',
+            'node_modules/mediaelement/build/lang/ru.js',
             'app/js/amazingslider.js',
             'app/js/froogaloop2.min.js',
             'app/js/initslider-1.js',
@@ -44,12 +46,15 @@ gulp.task('js', function() {
 gulp.task('css', function() {
     return gulp.src([
             'node_modules/hover.css/css/hover-min.css',
+            'node_modules/mediaelement/build/mediaelementplayer.min.css',
             'node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
             'node_modules/owl.carousel/dist/assets/owl.theme.default.min.css',
+            'node_modules/font-awesome/css/font-awesome.min.css',
             'app/css/amazingslider-1.css',
             'app/css/fonts.css',
             'app/css/style.css',
-            'app/css/media.css'
+            'app/css/media.css',
+            'app/css/audio.css'
         ])
         .on('error', console.log)
         .pipe(concat('styles.min.css'))
