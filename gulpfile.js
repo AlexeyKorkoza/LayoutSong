@@ -25,13 +25,14 @@ gulp.task('browser-sync', function() {
     });
 });
 
-gulp.task('scripts', function() {
+gulp.task('js', function() {
     return gulp.src([
             'node_modules/jquery/dist/jquery.min.js',
             'node_modules/owl.carousel/dist/owl.carousel.min.js',
             'app/js/amazingslider.js',
             'app/js/froogaloop2.min.js',
-            'app/js/initslider-1.js'
+            'app/js/initslider-1.js',
+            'app/js/main.js'
         ])
         .on('error', console.log)
         .pipe(concat('scripts.min.js'))
@@ -47,6 +48,8 @@ gulp.task('css', function() {
             'node_modules/owl.carousel/dist/assets/owl.theme.default.min.css',
             'app/css/amazingslider-1.css',
             'app/css/fonts.css',
+            'app/css/style.css',
+            'app/css/media.css'
         ])
         .on('error', console.log)
         .pipe(concat('styles.min.css'))
@@ -74,4 +77,9 @@ gulp.task('img', function() {
         .pipe(gulp.dest('app/img'));
 });
 
-gulp.task('default', ['browser-sync', 'clean', 'img', 'css', 'scripts']);
+gulp.task('watch', ['js', 'css'], function () {
+  gulp.watch('app/js/*.js', ['js'])
+  gulp.watch('app/css/*.css', ['css'])
+});
+
+gulp.task('default', ['browser-sync', 'clean', 'img', 'css', 'js', 'watch']);
