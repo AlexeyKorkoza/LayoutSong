@@ -69,30 +69,47 @@ $(document).ready(function () {
     e.preventDefault();
   });
 
-  var super_offerWidth = $(".super_offer").innerWidth();
-  $(".super_offer .container").css("width", super_offerWidth + 40);
-  if (super_offerWidth < 1250) {
-    var details_offerWidth = $(".details_offer").innerWidth();
-    $(".super_offer .container h1").css({
-      "margin-left": (super_offerWidth / 10.9),
-      "margin-right": (super_offerWidth / 10.9)
-    });
-    $(".super_offer .container h2").css({
-      "margin-left": (super_offerWidth / 10.9),
-      "margin-right": (super_offerWidth / 10.9)
-    });
-    $(".details").css({"margin-left": (super_offerWidth / 10.9), "margin-right": (super_offerWidth / 10.9)});
-  }
-  $(".details_offer").css("display", "flex");
-
   $(".mejs__time-float").remove();
 
-  /*
-  if($("html").innerWidth() < 550){
-    $(".mejs__time-rail").css("margin", "13px 0 0 30px");
-  } else {
-    $(".mejs__time-rail").css("margin", "13px 0 0 49px");
-  }*/
+  resizeSuperOffer();
+
+  $(window).resize(function () {
+    clearStylesSuperOffer();
+    resizeSuperOffer();
+  });
+
+  function clearStylesSuperOffer() {
+    $(".super_offer .container h1").css({
+      "margin-left": "",
+      "margin-right": ""
+    });
+    $(".super_offer .container h2").css({
+      "margin-left": "",
+      "margin-right": ""
+    });
+    $(".details").css({
+      "margin-left": "",
+      "margin-right": ""
+    });
+  }
+
+  function resizeSuperOffer() {
+    var super_offerWidth = $(".super_offer").innerWidth();
+    $(".super_offer .container").css("width", super_offerWidth + 40);
+    if (super_offerWidth < 1250) {
+      var details_offerWidth = $(".details_offer").innerWidth();
+      $(".super_offer .container h1").css({
+        "margin-left": (super_offerWidth / 10.9),
+        "margin-right": (super_offerWidth / 10.9)
+      });
+      $(".super_offer .container h2").css({
+        "margin-left": (super_offerWidth / 10.9),
+        "margin-right": (super_offerWidth / 10.9)
+      });
+      $(".details").css({"margin-left": (super_offerWidth / 10.9), "margin-right": (super_offerWidth / 10.9)});
+    }
+    $(".details_offer").css("display", "flex");
+  }
 
 });
 
