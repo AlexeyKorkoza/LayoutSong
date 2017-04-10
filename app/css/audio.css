@@ -234,7 +234,7 @@ div.audio-player {
   margin-top: -53px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
 
   .mejs__time-rail{
     width: 105px !important;

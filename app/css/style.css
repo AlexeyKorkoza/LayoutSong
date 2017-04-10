@@ -1,1009 +1,1018 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    height: 100%;
-    background: #f0edeb;
+  height: 100%;
+  background: #f0edeb;
 }
 
 header {
-    background: #373737;
-    overflow: hidden;
-    padding-top: 10px;
+  background: #373737;
+  overflow: hidden;
+  padding-top: 10px;
 }
 
 .logo {
-    float: left;
-    margin-left: 10px;
+  float: left;
+  margin-left: 10px;
 }
 
 #nav-icon {
-    width: 60px;
-    height: 45px;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-    float: left;
-    margin: 15px;
+  width: 60px;
+  height: 45px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  float: left;
+  margin: 15px;
 }
 
 #nav-icon span {
-    display: block;
-    position: absolute;
-    height: 9px;
-    width: 100%;
-    background: #d3531a;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background: #d3531a;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
 }
 
 #nav-icon span:nth-child(1) {
-    top: 0px;
+  top: 0px;
 }
 
 #nav-icon span:nth-child(2) {
-    top: 18px;
+  top: 18px;
 }
 
 #nav-icon span:nth-child(3) {
-    top: 36px;
+  top: 36px;
 }
 
 #nav-icon.open span:nth-child(1) {
-    top: 18px;
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 #nav-icon.open span:nth-child(2) {
-    opacity: 0;
-    left: -60px;
+  opacity: 0;
+  left: -60px;
 }
 
 #nav-icon.open span:nth-child(3) {
-    top: 18px;
-    -webkit-transform: rotate(-135deg);
-    transform: rotate(-135deg);
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 
 .navigation {
-    width: 70%;
-    display: none;
-    clear: left;
+  width: 70%;
+  display: none;
+  clear: left;
 }
 
 .navigation a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    margin: 15px;
-    font: 14pt "UbuntuRegular";
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 15px;
+  font: 14pt "UbuntuRegular";
 }
 
 .navigation a:hover {
-    color: #47a7bc;
+  color: #47a7bc;
 }
 
 header .contacts .telephone,
 header .contacts .socials,
 footer .contacts .telephone
-footer .contacts .socials{
-    float: left;
-    color: white;
+footer .contacts .socials {
+  float: left;
+  color: white;
 }
 
 header .contacts .telephone,
 footer .contacts .telephone {
-    font: 15pt "UbuntuRegular", sans-serif;
-    margin-right: 10px;
-    color: white;
+  font: 15pt "UbuntuRegular", sans-serif;
+  margin-right: 10px;
+  color: white;
 }
 
 header .contacts .telephone .number_of_telephone,
 footer .contacts .telephone .number_of_telephone {
-    font: bold 15pt "UbuntuMedium", sans-serif;
+  font: bold 15pt "UbuntuMedium", sans-serif;
 }
 
 header .contacts,
 footer .contacts {
-    position: absolute;
-    top: 0;
-    margin: 10px 20px 10px;
-    right: 0;
+  position: absolute;
+  top: 0;
+  margin: 10px 20px 10px;
+  right: 0;
 }
 
 header .container .contacts {
-    position: static;
-    float: right;
+  position: static;
+  float: right;
 }
 
 header .contacts .telephone,
 header .contacts .socials {
-    display: block;
+  display: block;
 }
 
 header .contacts .socials a,
-footer .contacts .socials a{
-    text-decoration: none;
+footer .contacts .socials a {
+  text-decoration: none;
 }
 
 header .contacts .socials a:hover,
 footer .contacts .socials a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 main {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .promo {
-    background: url(../img/promo-screen-1.png) no-repeat center;
-    padding: 62px 20px 83px 20px;
-    background-size: cover;
+  background: url(../img/promo-screen-1.png) no-repeat center;
+  padding: 62px 20px 83px 20px;
+  background-size: cover;
 }
 
 .promo_header1 {
-    width: 85%;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .promo_header2 {
-    width: 80%;
-    margin: 115px auto 60px auto;
+  width: 80%;
+  margin: 115px auto 60px auto;
 }
 
 .promo_header1,
 .promo_header2 {
-    text-transform: uppercase;
-    overflow: hidden;
+  text-transform: uppercase;
+  overflow: hidden;
 }
 
 .promo_header1 h1,
 .promo_header2 h1 {
-    color: #373737;
-    text-align: center;
+  color: #373737;
+  text-align: center;
 }
 
 .promo_header1 span,
 .promo_header2 span {
-    color: white;
-    float: left;
+  color: white;
+  float: left;
 }
 
 .promo_header1 h1 {
-    font: 20pt "UbuntuRegular";
-    margin-top: 0;
+  font: 20pt "UbuntuRegular";
+  margin-top: 0;
 }
 
 .promo_header2 h1 {
-    font: 25pt "UbuntuRegular";
-    text-align: left;
+  font: 25pt "UbuntuRegular";
+  text-align: left;
 }
 
 .promo_header1 span {
-    margin-top: 30px;
-    font: 40pt "UbuntuMedium";
-    float: left;
+  margin-top: 30px;
+  font: 40pt "UbuntuMedium";
+  float: left;
 }
 
 .promo_header2 span {
-    margin-top: 22px;
-    font: 25pt "UbuntuMedium";
+  margin-top: 22px;
+  font: 25pt "UbuntuMedium";
 }
 
 .promo_music {
-    width: 90%;
-    overflow: hidden;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background: white;
-    margin: 0 auto;
+  width: 90%;
+  overflow: hidden;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: white;
+  margin: 0 auto;
 }
 
 .promo_music_whom {
-    background: url(../img/background-music-whom.png) no-repeat;
-    padding: 15px 17px 15px 15px;
-    background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  background: url(../img/background-music-whom.png) no-repeat;
+  padding: 15px 17px 15px 15px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .promo_music_whom li {
-    list-style: none;
-    display: inline-block;
-    font: 15pt "UbuntuRegular";
+  list-style: none;
+  font: 15pt "UbuntuRegular";
+  padding: 0 3%;
+}
+
+.promo_music_whom li:nth-of-type(2) {
+  border-right: 1px solid #f0edeb;
+  border-left: 1px solid #f0edeb;
 }
 
 .promo_music_whom a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .promo_music #promo_feedback_he,
 .promo_music #promo_feedback_she,
 .promo_music #promo_feedback_action {
-    display: none;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
+  display: none;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 
 .promo_music #promo_feedback_she {
-    display: block;
+  display: block;
 }
 
 .promo_music .he {
-    padding: 0 25px 10px 33px;
-    background: none;
-    border: none;
-    border-right: 1px solid #f0edeb;
-    color: #32a8ec;
-    vertical-align: top;
+  background: none;
+  border: none;
+  color: #32a8ec;
+  vertical-align: top;
 }
 
 .promo_music .she {
-    padding: 0 26px 10px 20px;
-    background: none;
-    border: none;
-    border-right: 1px solid #f0edeb;
-    color: #d207a4;
-    vertical-align: top;
+  background: none;
+  border: none;
+  color: #d207a4;
+  vertical-align: top;
 }
 
 .promo_music .action {
-    background: none;
-    border: none;
-    padding: 0 32px 0 29px;
-    color: #70c45d;
-    vertical-align: top;
+  background: none;
+  border: none;
+  color: #70c45d;
+  vertical-align: top;
 }
 
 @-webkit-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .promo_music .he img {
-    margin-right: 12px;
-    position: relative;
-    top: 5px;
+  margin-right: 12px;
+  margin-left: 25px;
+  display: block;
+  clear: left;
+  margin-bottom: 4px;
 }
 
 .promo_music .she img,
 .promo_music .action img {
-    margin-right: 9px;
+  margin-right: 9px;
+  margin-left: 25px;
+  clear: left;
+  display: block;
+}
+
+.promo_music .action img {
+  margin-bottom: 2px;
 }
 
 .promo_feedback {
-    background: url(../img/background-music-feedback.png) no-repeat;
-    background-size: cover;
-    padding: 15px;
+  background: url(../img/background-music-feedback.png) no-repeat;
+  background-size: cover;
+  padding: 15px;
 }
 
 .promo_feedback_track {
-    background: url(../img/track.png) no-repeat;
-    height: 50px;
-    margin-left: 30px;
+  background: url(../img/track.png) no-repeat;
+  height: 50px;
+  margin-left: 30px;
 }
 
 .promo_arrows {
-    position: relative;
+  position: relative;
 }
 
 .promo_feedback .owl-prev,
 .promo_feedback .owl-next {
-    height: 50px;
-    width: 25px;
-    position: absolute;
+  height: 50px;
+  width: 25px;
+  position: absolute;
 }
 
 .promo_feedback .owl-prev {
-    background: url(../img/arrow-left.png) no-repeat !important;
-    top: 32%;
-    left: -10px;
+  background: url(../img/arrow-left.png) no-repeat !important;
+  top: 32%;
+  left: -10px;
 }
 
 .promo_feedback .owl-next {
-    background: url(../img/arrow-right.png) no-repeat !important;
-    right: -10px;
-    top: 32%;
+  background: url(../img/arrow-right.png) no-repeat !important;
+  right: -10px;
+  top: 32%;
 }
 
 .promo_feedback_who {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .who_name {
-    font: 10pt "UbuntuMedium";
-    color: black;
+  font: 10pt "UbuntuMedium";
+  color: black;
 }
 
 .who_whom {
-    color: black;
-    font: 11.5pt "UbuntuLight";
+  color: black;
+  font: 11.5pt "UbuntuLight";
 }
 
 .who_avatar {
-    background: url(../img/avatar-man.png) no-repeat;
-    height: 79px;
-    width: 79px;
-    float: left;
-    margin: 0 10px 16px 10px;
+  background: url(../img/avatar-man.png) no-repeat;
+  height: 79px;
+  width: 79px;
+  float: left;
+  margin: 0 10px 16px 10px;
 }
 
 .promo_feedback_text {
-    color: black;
-    font: 11.5pt "UbuntuLight";
-    padding: 0 30px;
-    clear: both;
+  color: black;
+  font: 11.5pt "UbuntuLight";
+  padding: 0 30px;
+  clear: both;
 }
 
 .super_offer {
-    background: none;
-    padding: 0;
+  background: none;
+  padding: 0;
 }
 
 .super_offer .container {
-    overflow: hidden;
-    background: #ffde00;
-    -ms-transform: rotate(-3deg);
-    -ms-transform-origin: 80% 100%;
-    -webkit-transform: rotate(-3deg);
-    -webkit-transform-origin: 80% 100%;
-    transform: rotate(-3deg);
-    transform-origin: 80% 100%;
-    position: relative;
-    top: -40px;
-    padding: 45px 0;
+  overflow: hidden;
+  background: #ffde00;
+  -ms-transform: rotate(-3deg);
+  -ms-transform-origin: 80% 100%;
+  -webkit-transform: rotate(-3deg);
+  -webkit-transform-origin: 80% 100%;
+  transform: rotate(-3deg);
+  transform-origin: 80% 100%;
+  position: relative;
+  top: -40px;
+  padding: 45px 0;
 }
 
 .super_offer h1 {
-    font: bold 30pt "UbuntuMedium";
-    text-align: left;
-    color: #373737;
+  font: bold 30pt "UbuntuMedium";
+  text-align: left;
+  color: #373737;
 }
 
 .super_offer .discount {
-    font: 25pt "UbuntuRegular";
-    text-align: left;
-    color: #373737;
-    margin-bottom: 78px;
+  font: 25pt "UbuntuRegular";
+  text-align: left;
+  color: #373737;
+  margin-bottom: 78px;
 }
 
 .details_offer {
-    display: table;
-    margin: 0 auto;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: table;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .details img {
-    margin-left: 20px;
-    float: left;
+  margin-left: 20px;
+  float: left;
 }
 
 .details p {
-    font: 20pt "UbuntuLight";
-    color: #373737;
-    text-align: center;
+  font: 20pt "UbuntuLight";
+  color: #373737;
+  text-align: center;
 }
 
 .order {
-    color: white;
-    border: none;
-    font: 25pt "UbuntuMedium";
-    padding: 32px 62px;
-    margin: 20px auto 0;
-    display: table !important;
-    cursor: pointer;
-    border-bottom: 3px solid #388da0;
-    background: #49b8d1;
-    border-radius: 10px;
+  color: white;
+  border: none;
+  font: 25pt "UbuntuMedium";
+  padding: 32px 62px;
+  margin: 20px auto 0;
+  display: table !important;
+  cursor: pointer;
+  border-bottom: 3px solid #388da0;
+  background: #49b8d1;
+  border-radius: 10px;
 }
 
 .scheme_of_work {
-    background: #f0edeb;
-    padding: 30px 20px 0 20px;
+  background: #f0edeb;
+  padding: 30px 20px 0 20px;
 }
 
 .scheme_of_work .container > h1 {
-    font: bold 35pt "UbuntuMedium";
-    color: #373737;
-    text-align: center;
+  font: bold 35pt "UbuntuMedium";
+  color: #373737;
+  text-align: center;
 }
 
 .scheme_of_work_button input[type=submit] {
-    padding: 15px 30%;
-    background: #49b8d1;
-    font: 25pt "UbuntuLight";
-    color: white;
-    margin: 50px auto 45px;
-    display: table;
-    border: none;
+  padding: 15px 30%;
+  background: #49b8d1;
+  font: 25pt "UbuntuLight";
+  color: white;
+  margin: 50px auto 45px;
+  display: table;
+  border: none;
 }
 
 .scheme_of_work_steps .apply_online,
 .scheme_of_work_steps .payment_method,
 .scheme_of_work_steps .get_song {
-    padding-bottom: 105px;
-    border-bottom: #f0edeb;
-    width: 100%;
+  padding-bottom: 105px;
+  border-bottom: #f0edeb;
+  width: 100%;
 }
 
 .apply_online_icon,
 .payment_method_icon,
 .get_song_icon {
-    height: 190px;
-    background: url(../img/background_scheme_of_work.png) no-repeat;
-    width: 180px;
-    position: relative;
-    margin: 0 auto;
+  height: 190px;
+  background: url(../img/background_scheme_of_work.png) no-repeat;
+  width: 180px;
+  position: relative;
+  margin: 0 auto;
 }
 
 .apply_online_icon img,
 .get_song_icon img {
-    position: absolute;
-    right: 30%;
-    top: 30%;
+  position: absolute;
+  right: 30%;
+  top: 30%;
 }
 
 .payment_method_icon img {
-    position: absolute;
-    right: 40%;
-    top: 30%;
+  position: absolute;
+  right: 40%;
+  top: 30%;
 }
 
 .apply_online_action,
 .payment_method_action,
 .get_song_action {
-    color: #373737;
-    margin-top: 15px;
-    font: bold 17pt "UbuntuMedium";
-    margin-bottom: 20px;
-    text-align: center;
+  color: #373737;
+  margin-top: 15px;
+  font: bold 17pt "UbuntuMedium";
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .apply_online_text p,
 .payment_method_text p,
 .get_song_text p {
-    color: #373737;
-    font: 10pt "UbuntuRegular";
+  color: #373737;
+  font: 10pt "UbuntuRegular";
 }
 
 .get_song {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .emotions {
-    border: 5px solid #49b8d1;
-    padding: 5px 20px;
-    display: table;
-    margin: 0 auto 20px;
-    border-radius: 50px;
+  border: 5px solid #49b8d1;
+  padding: 5px 20px;
+  display: table;
+  margin: 0 auto 20px;
+  border-radius: 50px;
 }
 
 .emotions_avatar {
-    margin-right: 9px;
-    float: left;
+  margin-right: 9px;
+  float: left;
 }
 
 .emotions_avatar img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .emotions_text h2 {
-    color: #49b8d1;
-    font: 20pt "UbuntuRegular";
-    text-decoration: underline;
+  color: #49b8d1;
+  font: 20pt "UbuntuRegular";
+  text-decoration: underline;
 }
 
 .emotions_text p {
-    color: #373737;
-    font: 13pt "UbuntuLight";
-    text-align: left;
+  color: #373737;
+  font: 13pt "UbuntuLight";
+  text-align: left;
 }
 
 .scheme_of_work_order {
-    display: table;
-    margin: 20px auto 0;
+  display: table;
+  margin: 20px auto 0;
 }
 
 .whom_songs {
-    padding: 100px 20px 37px 20px;
-    overflow: hidden;
-    background: #f0edeb;
+  padding: 100px 20px 37px 20px;
+  overflow: hidden;
+  background: #f0edeb;
 }
 
 .whom_songs h1 {
-    color: #373737;
-    text-align: center;
-    font: 30pt "UbuntuMedium";
+  color: #373737;
+  text-align: center;
+  font: 30pt "UbuntuMedium";
 }
 
 .whom_songs_example {
-    display: table;
-    margin: 48px auto 0 auto;
+  display: table;
+  margin: 48px auto 0 auto;
 }
 
 .example_songs {
-    background: url(../img/background-feedback.png);
-    overflow: hidden;
-    position: relative;
-    background-size: cover;
-    padding: 120px 20px 55px 20px;
+  background: url(../img/background-feedback.png);
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  padding: 120px 20px 55px 20px;
 }
 
 .example_songs h1 {
-    color: #373737;
-    font: 40pt "UbuntuMedium";
-    display: block;
-    margin-bottom: 30px;
-    text-align: center;
+  color: #373737;
+  font: 40pt "UbuntuMedium";
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .example_songs p {
-    font: 17pt "UbuntuLight";
-    color: #373737;
-    display: block;
-    margin-bottom: 75px;
+  font: 17pt "UbuntuLight";
+  color: #373737;
+  display: block;
+  margin-bottom: 75px;
 }
 
 .example_songs_feedback {
-    margin-top: 110px;
+  margin-top: 110px;
 }
 
 .example_songs_line {
-    background: url(../img/example_songs_line.png) no-repeat;
-    height: 10px;
-    position: relative;
-    width: 570px;
-    margin: 0 auto;
+  background: url(../img/example_songs_line.png) no-repeat;
+  height: 10px;
+  position: relative;
+  width: 570px;
+  margin: 0 auto;
 }
 
 .example_songs_line_man,
 .example_songs_line_woman,
 .example_songs_line_action {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -15px;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: -15px;
 }
 
 .example_songs_line_man {
-    background: url(../img/example_songs_line_man.png) no-repeat;
-    left: -39px;
+  background: url(../img/example_songs_line_man.png) no-repeat;
+  left: -39px;
 }
 
 .example_songs_line_woman {
-    background: url(../img/example_songs_line_woman.png) no-repeat;
-    right: 50%;
+  background: url(../img/example_songs_line_woman.png) no-repeat;
+  right: 50%;
 }
 
 .example_songs_line_action {
-    background: url(../img/example_songs_line_action.png) no-repeat;
-    right: -39px;
+  background: url(../img/example_songs_line_action.png) no-repeat;
+  right: -39px;
 }
 
 .example_songs_line span {
-    font: 25pt "UbuntuLight";
-    position: absolute;
+  font: 25pt "UbuntuLight";
+  position: absolute;
 }
 
 .example_songs_line_man span {
-    color: #49b8d1;
-    left: -40px;
-    top: 40px;
+  color: #49b8d1;
+  left: -40px;
+  top: 40px;
 }
 
 .example_songs_line_woman span {
-    color: #d207a4;
-    left: -55px;
-    top: -40px;
+  color: #d207a4;
+  left: -55px;
+  top: -40px;
 }
 
 .example_songs_line_action span {
-    color: #70c45d;
-    top: 40px;
-    left: -40px;
+  color: #70c45d;
+  top: 40px;
+  left: -40px;
 }
 
 .video {
-    overflow: hidden;
-    color: white;
-    padding: 60px 20px 50px 20px;
-    background: url(../img/background-video.png) no-repeat center;
-    background-size: cover;
+  overflow: hidden;
+  color: white;
+  padding: 60px 20px 50px 20px;
+  background: url(../img/background-video.png) no-repeat center;
+  background-size: cover;
 }
 
 .video h1 {
-    font: bold 30pt "UbuntuMedium";
-    display: block;
-    margin-bottom: 60px;
-    text-align: center;
+  font: bold 30pt "UbuntuMedium";
+  display: block;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .count_of_video > h2 {
-    font: 30pt "UbuntuMedium";
-    text-align: center;
+  font: 30pt "UbuntuMedium";
+  text-align: center;
 }
 
 .count_of_video > p {
-    font: 15pt "UbuntuLight";
-    text-align: right;
+  font: 15pt "UbuntuLight";
+  text-align: right;
 }
 
 .video .container > h2 {
-    font: bold 40pt "UbuntuMedium";
-    display: block;
-    margin: 70px 0 15px 0;
-    text-align: center;
+  font: bold 40pt "UbuntuMedium";
+  display: block;
+  margin: 70px 0 15px 0;
+  text-align: center;
 }
 
 #amazingslider-wrapper-1 {
-    margin: 0px auto 20px !important;
+  margin: 0px auto 20px !important;
 }
 
 .amazingslider-slider-1 {
-    padding: 8px;
-    border-radius: 5px;
-    background: white;
+  padding: 8px;
+  border-radius: 5px;
+  background: white;
 }
 
 .amazingslider-arrow-right-1 {
-    background: url(../img/video-arrow-right.png) no-repeat !important;
-    height: 70px !important;
-    width: 45px !important;
+  background: url(../img/video-arrow-right.png) no-repeat !important;
+  height: 70px !important;
+  width: 45px !important;
 }
 
 .amazingslider-arrow-left-1 {
-    background: url(../img/video-arrow-left.png) no-repeat !important;
-    height: 70px !important;
-    width: 45px !important;
+  background: url(../img/video-arrow-left.png) no-repeat !important;
+  height: 70px !important;
+  width: 45px !important;
 }
 
-.amazingslider-text-1 .amazingslider-title-1{
-    display: none !important;
+.amazingslider-text-1 .amazingslider-title-1 {
+  display: none !important;
 }
 
-.amazingslider-img-1 img{
-    height: 100% !important;
+.amazingslider-img-1 img {
+  height: 100% !important;
 }
 
 .number_of_slide {
-    display: table;
-    margin: 0 auto;
-    font: bold 15pt "UbuntuRegular";
-    color: white;
+  display: table;
+  margin: 0 auto;
+  font: bold 15pt "UbuntuRegular";
+  color: white;
 }
 
 .feedback {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .feedback h1 {
-    font: 30pt "UbuntuMedium";
-    color: #373737;
-    display: block;
-    margin: 65px 0 55px;
-    text-align: center;
+  font: 30pt "UbuntuMedium";
+  color: #373737;
+  display: block;
+  margin: 65px 0 55px;
+  text-align: center;
 }
 
 .feedback h3 {
-    font: 15pt "UbuntuLight";
-    color: #373737;
-    text-align: center;
-    display: block;
-    margin-bottom: 25px;
+  font: 15pt "UbuntuLight";
+  color: #373737;
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
 }
 
 .feedback_slider {
-    overflow: hidden;
-    position: relative;
-    padding: 120px 70px 50px 70px;
-    background: url(../img/background-feedback.png) no-repeat;
-    background-size: cover;
+  overflow: hidden;
+  position: relative;
+  padding: 120px 70px 50px 70px;
+  background: url(../img/background-feedback.png) no-repeat;
+  background-size: cover;
 }
 
 .feedback_slider .owl-nav .owl-prev,
 .feedback_slider .owl-nav .owl-next {
-    position: absolute;
-    top: 40%;
-    height: 57px;
-    width: 57px;
+  position: absolute;
+  top: 40%;
+  height: 57px;
+  width: 57px;
 }
 
 .feedback_slider .owl-nav .owl-prev {
-    left: -70px;
-    background: url(../img/feedback-arrow-left.png) no-repeat !important;
+  left: -70px;
+  background: url(../img/feedback-arrow-left.png) no-repeat !important;
 }
 
 .feedback_slider .owl-nav .owl-next {
-    right: -70px;
-    background: url(../img/feedback-arrow-right.png) no-repeat !important;
+  right: -70px;
+  background: url(../img/feedback-arrow-right.png) no-repeat !important;
 }
 
 .rates {
-    padding: 40px 20px;
+  padding: 40px 20px;
 }
 
 .rates h1 {
-    font: 30pt "UbuntuMedium";
-    color: #373737;
-    display: block;
-    margin-bottom: 55px;
-    text-align: center;
+  font: 30pt "UbuntuMedium";
+  color: #373737;
+  display: block;
+  margin-bottom: 55px;
+  text-align: center;
 }
 
 .rates .price {
-    background: url(../img/Price.png) no-repeat;
-    height: 696px;
-    width: 100%;
+  background: url(../img/Price.png) no-repeat;
+  height: 696px;
+  width: 100%;
 }
 
 .answer_question {
-    padding: 120px 20px 0 20px;
-    background: url(../img/background-feedback.png) no-repeat;
-    background-size: cover;
+  padding: 120px 20px 0 20px;
+  background: url(../img/background-feedback.png) no-repeat;
+  background-size: cover;
 }
 
 .answer_question h1 {
-    font: 30pt "UbuntuMedium";
-    color: #373737;
-    display: block;
-    margin-bottom: 50px;
-    text-align: center;
+  font: 30pt "UbuntuMedium";
+  color: #373737;
+  display: block;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .answer_question .accordion {
-    position: relative;
-    margin-bottom: 50px;
+  position: relative;
+  margin-bottom: 50px;
 }
 
 .answer_question .accordion .accordion_title {
-    position: relative;
-    background: #49b8d1;
-    color: white;
-    font: 14pt "UbuntuRegular";
-    padding: 0 70px 0 30px;
-    border-radius: 25px;
-    border: none;
-    cursor: pointer;
-    height: 80px;
-    outline: none;
-    width: 100%;
-    text-decoration: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  position: relative;
+  background: #49b8d1;
+  color: white;
+  font: 14pt "UbuntuRegular";
+  padding: 0 70px 0 30px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  height: 80px;
+  outline: none;
+  width: 100%;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.answer_question .accordion .accordion_title span {}
+.answer_question .accordion .accordion_title span {
+}
 
 .answer_question .accordion .accordion_title.active {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .answer_question .accordion .accordion_title img {
-    position: absolute;
-    right: 40px;
-    top: 35px;
+  position: absolute;
+  right: 40px;
+  top: 35px;
 }
 
 .answer_question .accordion .accordion_title.active img {
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    -webkit-transform: rotate(-180deg);
-    transform: rotate(-180deg);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 .answer_question .accordion div {
-    background: white;
-    overflow: hidden;
-    -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-    transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-    display: none;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    position: relative;
-    top: -19px;
+  background: white;
+  overflow: hidden;
+  -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+  transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+  display: none;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  top: -19px;
 }
 
 .answer_question .accordion div p {
-    font: 14pt "UbuntuRegular";
-    color: #373737;
-    padding: 20px 30px 40px 30px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    margin-bottom: 50px;
-    background: white;
+  font: 14pt "UbuntuRegular";
+  color: #373737;
+  padding: 20px 30px 40px 30px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 50px;
+  background: white;
 }
 
 .global-conclusion {
-    background: url(../img/background-global-conclusion.png) no-repeat center;
-    background-size: cover;
-    padding: 175px 20px 83px 20px;
+  background: url(../img/background-global-conclusion.png) no-repeat center;
+  background-size: cover;
+  padding: 175px 20px 83px 20px;
 }
 
 .global-conclusion h1 {
-    display: block;
-    margin-bottom: 43px;
-    color: white;
-    font: 40pt "UbuntuMedium";
-    text-align: center;
+  display: block;
+  margin-bottom: 43px;
+  color: white;
+  font: 40pt "UbuntuMedium";
+  text-align: center;
 }
 
 .global-conclusion h3 {
-    display: block;
-    margin-bottom: 60px;
-    color: white;
-    font: 20pt "UbuntuRegular";
-    text-align: center;
+  display: block;
+  margin-bottom: 60px;
+  color: white;
+  font: 20pt "UbuntuRegular";
+  text-align: center;
 }
 
 .global-conclusion p {
-    background: #49b8d1;
-    padding: 15px 50px;
-    font: 20pt "UbuntuMedium";
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
+  background: #49b8d1;
+  padding: 15px 50px;
+  font: 20pt "UbuntuMedium";
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
 }
 
 footer {
-    padding: 55px 20px 50px 20px;
-    background: #1e1c1b;
-    position: relative;
-    overflow: hidden;
+  padding: 55px 20px 50px 20px;
+  background: #1e1c1b;
+  position: relative;
+  overflow: hidden;
 }
 
 footer .data {
-    font: 9pt 'RobotoThin';
-    color: white;
-    clear: left;
+  font: 9pt 'RobotoThin';
+  color: white;
+  clear: left;
 }
 
 footer .contacts {
-    margin: 0 20px 0 0;
-    top: 55px;
+  margin: 0 20px 0 0;
+  top: 55px;
 }
 
 .modal {
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background: url(../img/background-modal.png);
-    padding: 100px 30px 0 30px;
-    ;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: url(../img/background-modal.png);
+  padding: 100px 30px 0 30px;;
 }
 
 .modal_content {
-    border-radius: 5px;
-    background: #f0edeb;
-    padding: 26px 0 24px 0;
+  border-radius: 5px;
+  background: #f0edeb;
+  padding: 26px 0 24px 0;
 }
 
 .modal_header {
-    background: url(../img/background-header-modal.png) no-repeat;
-    padding: 12px 0 14px 0;
-    margin-bottom: 26px;
-    color: #f0edeb;
-    text-align: center;
-    font: 25pt "UbuntuRegular";
+  background: url(../img/background-header-modal.png) no-repeat;
+  padding: 12px 0 14px 0;
+  margin-bottom: 26px;
+  color: #f0edeb;
+  text-align: center;
+  font: 25pt "UbuntuRegular";
 }
 
 .modal_form {
-    margin: 0 auto;
-    display: table;
+  margin: 0 auto;
+  display: table;
 }
 
 .modal_form .modal_telephone {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .modal_form input {
-    color: #8f8f8e;
-    padding: 15px 0 15px 15px;
-    font: 12pt "UbuntuRegular";
-    border: 1px solid #8f8f8e;
-    border-radius: 5px;
-    display: block;
-    outline: none;
+  color: #8f8f8e;
+  padding: 15px 0 15px 15px;
+  font: 12pt "UbuntuRegular";
+  border: 1px solid #8f8f8e;
+  border-radius: 5px;
+  display: block;
+  outline: none;
 }
 
 .modal_form button {
-    margin: 30px 0 20px 0;
-    background: #49b8d1;
-    color: #f0edeb;
-    border: none;
-    border-bottom: 3px solid #388da0;
-    border-radius: 10px;
-    font: 15pt "UbuntuLight";
-    padding: 15px 32px 13px 28px;
-    cursor: pointer;
+  margin: 30px 0 20px 0;
+  background: #49b8d1;
+  color: #f0edeb;
+  border: none;
+  border-bottom: 3px solid #388da0;
+  border-radius: 10px;
+  font: 15pt "UbuntuLight";
+  padding: 15px 32px 13px 28px;
+  cursor: pointer;
 }
 
 .modal_form .save_data {
-    font: 12pt "UbuntuLight";
-    color: #afaead;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  font: 12pt "UbuntuLight";
+  color: #afaead;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .modal_form .save_data img {
-    display: block;
-    margin-right: 5px;
+  display: block;
+  margin-right: 5px;
 }
 
 .modal_order {
-    display: table;
-    margin: 0 auto;
+  display: table;
+  margin: 0 auto;
 }
 
 .hvr-sweep-to-bottom:before {
-    background: #27ad5f;
-    padding-bottom: 5px;
-    border-radius: 10px;
+  background: #27ad5f;
+  padding-bottom: 5px;
+  border-radius: 10px;
 }
 
 .hvr-sweep-to-bottom:hover,
 .hvr-sweep-to-bottom:focus,
 .hvr-sweep-to-bottom:active {
-    color: white;
-    border-radius: 10px;
-    border-bottom-color: #27ad5f;
+  color: white;
+  border-radius: 10px;
+  border-bottom-color: #27ad5f;
 }
 
 .hvr-sweep-to-bottom:hover:before,
 .hvr-sweep-to-bottom:focus:before,
 .hvr-sweep-to-bottom:active:before {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
 }
 
 .super_offer .container h1,
 .super_offer .container h2,
 .super_offer .container .details_offer {
-    -webkit-transform: rotate(3deg);
-    transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
 }

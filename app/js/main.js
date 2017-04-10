@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  alert($("html").innerWidth());
   $("#nav-icon").click(function () {
     $(this).toggleClass("open");
     $(".navigation").toggle();
