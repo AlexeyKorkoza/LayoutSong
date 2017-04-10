@@ -87,8 +87,11 @@ $(document).ready(function () {
 
   $(".mejs__time-float").remove();
 
-  /*if($("html").innerWidth() < 550){
-    $(".mejs__time-slider").remove();
+  /*
+  if($("html").innerWidth() < 550){
+    $(".mejs__time-rail").css("margin", "13px 0 0 30px");
+  } else {
+    $(".mejs__time-rail").css("margin", "13px 0 0 49px");
   }*/
 
 });

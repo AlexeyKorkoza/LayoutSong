@@ -1,291 +1,372 @@
 @media only screen and (min-width: 400px) {
-    header .container .contacts .telephone,
-    header .container .contacts .socials {
-        float: left;
-    }
+  header .container .contacts .telephone,
+  header .container .contacts .socials {
+    float: left;
+  }
 }
 
 @media only screen and (min-width: 550px) {
-    .modal_content {
-        width: 500px;
-        margin: 0 auto;
-    }
-    .modal_form .modal_name,
-    .modal_form .modal_telephone,
-    .modal_form .modal_email {
-        padding-right: 73px;
-    }
-    .promo_music {
-        width: 532px;
-    }
-    .amazingslider-arrow-right-1 {
-        right: -50px !important;
-    }
-    .amazingslider-arrow-left-1 {
-        left: -50px !important;
-    }
-    .scheme_of_work_button {
-        width: 460px;
-        margin: 0 auto;
-    }
+
+  .modal_content {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .modal_form .modal_name,
+  .modal_form .modal_telephone,
+  .modal_form .modal_email {
+    padding-right: 73px;
+  }
+
+  .promo_music {
+    width: 532px;
+  }
+
+  .amazingslider-arrow-right-1 {
+    right: -50px !important;
+  }
+
+  .amazingslider-arrow-left-1 {
+    left: -50px !important;
+  }
+
+  .scheme_of_work_button {
+    width: 460px;
+    margin: 0 auto;
+  }
+
+  .who_name{
+    padding-top: 20px;
+  }
+
+  .mejs__controls .mejs__play button,
+  .mejs__controls .mejs__replay button,
+  .mejs__controls .mejs__pause button,
+  .mejs__playpause-button button {
+    margin-left: 32px;
+  }
+
+  .mejs__time-total {
+    width: 300px;
+  }
+
+  .mejs__horizontal-volume-total {
+    position: relative;
+    left: 10px;
+  }
+
+  .mejs__horizontal-volume-slider {
+    float: right;
+    right: 0;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .promo_music {
-        margin: 0 auto 0 51px;
-    }
-    .scheme_of_work_steps .apply_online,
-    .scheme_of_work_steps .payment_method,
-    .scheme_of_work_steps .get_song {
-        width: 48%;
-    }
-    .scheme_of_work_steps {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: row;
-        -ms-flex-wrap: wrap;
-        -ms-flex-pack: distribute;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        flex-direction: row;
-    }
-    .global-conclusion p {
-        width: 669px;
-        display: block;
-        margin: 0 auto;
-    }
-    .super_offer .container {
-        top: -57px;
-    }
-    .example_songs p {
-        width: 636px;
-        margin: 0 auto 75px auto;
-    }
+  .promo_music {
+    margin: 0 auto 0 51px;
+  }
+
+  .scheme_of_work_steps .apply_online,
+  .scheme_of_work_steps .payment_method,
+  .scheme_of_work_steps .get_song {
+    width: 48%;
+  }
+
+  .scheme_of_work_steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+  }
+
+  .global-conclusion p {
+    width: 669px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .super_offer .container {
+    top: -57px;
+  }
+
+  .example_songs p {
+    width: 636px;
+    margin: 0 auto 75px auto;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    #nav-icon {
-        display: none;
-    }
-    .navigation {
-        display: block;
-        clear: none;
-        width: 100%;
-    }
-    .navigation a {
-        display: inline-block;
-    }
-    header .contacts {
-        position: static;
-        float: right;
-    }
-    .promo_header1 {
-        width: 100%;
-    }
-    .emotions {
-        margin: 0 auto;
-        width: 805px;
-    }
-    .super_offer .container {
-        top: -70px;
-    }
-    .details_offer .details,
-    .details_offer .super_offer_order {
-        display: inline-block;
-    }
-    .details_offer .details {
-        width: 60%;
-    }
-    .details_offer .super_offer_order {
-        width: 39%;
-        vertical-align: top;
-    }
-    .details_offer .details p {
-        text-align: left;
-        display: block;
-        margin-left: 90px;
-    }
-    .details_offer .details img {
-        margin-right: 24px;
-        display: block;
-    }
-    .example_songs_feedback {
-        display: inline-block;
-    }
-    .example_songs_feedback img {
-        vertical-align: top;
-    }
-    .order {
-        margin: 0;
-    }
-    .details_offer {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-    }
-    .accordions {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    .example_songs_line_man span {
-        left: -135px;
-        top: 0;
-    }
-    .example_songs_line_action span {
-        top: 40px;
-        left: -90px;
-        width: 245px;
-    }
-    .accordion {
-        width: 48%;
-    }
-    footer .container {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    footer .logo {
-        float: none;
-    }
-    footer .data {
-        clear: none;
-        width: 55%;
-        margin: 0 10px;
-    }
-    footer .contacts {
-        position: static;
-    }
-    footer .contacts .telephone,
-    footer .contacts .socials{
-        display: inline-block;
-    }
+  #nav-icon {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+    clear: none;
+    width: 100%;
+  }
+
+  .navigation a {
+    display: inline-block;
+  }
+
+  header .contacts {
+    position: static;
+    float: right;
+  }
+
+  .promo_header1 {
+    width: 100%;
+  }
+
+  .emotions {
+    margin: 0 auto;
+    width: 805px;
+  }
+
+  .super_offer .container {
+    top: -70px;
+  }
+
+  .details_offer .details,
+  .details_offer .super_offer_order {
+    display: inline-block;
+  }
+
+  .details_offer .details {
+    width: 60%;
+  }
+
+  .details_offer .super_offer_order {
+    width: 39%;
+    vertical-align: top;
+  }
+
+  .details_offer .details p {
+    text-align: left;
+    display: block;
+    margin-left: 90px;
+  }
+
+  .details_offer .details img {
+    margin-right: 24px;
+    display: block;
+  }
+
+  .example_songs_feedback {
+    display: inline-block;
+  }
+
+  .example_songs_feedback img {
+    vertical-align: top;
+  }
+
+  .order {
+    margin: 0;
+  }
+
+  .details_offer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .accordions {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .example_songs_line_man span {
+    left: -135px;
+    top: 0;
+  }
+
+  .example_songs_line_action span {
+    top: 40px;
+    left: -90px;
+    width: 245px;
+  }
+
+  .accordion {
+    width: 48%;
+  }
+
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  footer .logo {
+    float: none;
+  }
+
+  footer .data {
+    clear: none;
+    width: 55%;
+    margin: 0 10px;
+  }
+
+  footer .contacts {
+    position: static;
+  }
+
+  footer .contacts .telephone,
+  footer .contacts .socials {
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 1020px) {
-    header .contacts {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 10px 20px 10px;
-    }
+  header .contacts {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 20px 10px;
+  }
 }
 
 @media only screen and (min-width: 1250px) {
-    header {
-        position: relative;
-    }
-    header .container {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    header .contacts {
-        position: static;
-    }
-    .navigation {
-        width: 70%;
-    }
-    .scheme_of_work_steps .apply_online,
-    .scheme_of_work_steps .payment_method,
-    .scheme_of_work_steps .get_song {
-        width: 31%;
-    }
-    .apply_online_action,
-    .get_song_action {
-        display: block;
-        margin-bottom: 40px;
-    }
-    .payment_method_icon_container {
-        border-right: 1px solid #49b8d1;
-        border-left: 1px solid #49b8d1;
-    }
-    .apply_online_icon,
-    .payment_method_icon,
-    .get_song_icon {
-        margin: auto;
-        width: auto;
-        background-position: center;
-    }
-    .apply_online_icon {
-        padding-right: 120px;
-    }
-    .payment_method_icon {
-        padding: 0 120px;
-    }
-    .get_song_icon {
-        padding-left: 120px;
-    }
-    .payment_method_icon img {
-        right: 45%;
-    }
-    .apply_online_icon img,
-    .get_song_icon img {
-        right: 42%;
-    }
-    .apply_online_action,
-    .get_song_action {
-        padding: 0 59px;
-    }
-    .payment_method_action {
-        padding: 0 100px;
-    }
-    .apply_online_text p,
-    .payment_method_text p,
-    .get_song_text p {
-        padding: 0 70px;
-    }
-    .example_songs_feedback img:first-of-type {
-        margin-right: 235px;
-    }
-    .details_offer .details img {
-        margin-left: 28px;
-    }
-    .super_offer_order .order {
-        margin-top: 0;
-    }
-    footer .logo img {
-        position: relative;
-        top: -23px;
-    }
-    header .container,
-    .super_offer .super_offer_content,
-    .scheme_of_work .container,
-    .whom_songs .container,
-    .example_songs .container,
-    .video .container,
-    .answer_question .container,
-    .global-conclusion .container,
-    footer .container {
-        margin: 0 auto;
-        width: 1200px;
-    }
-    .super_offer .container {
-        top: -87px;
-    }
+  header {
+    position: relative;
+  }
+
+  header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  header .contacts {
+    position: static;
+  }
+
+  .navigation {
+    width: 70%;
+  }
+
+  .scheme_of_work_steps .apply_online,
+  .scheme_of_work_steps .payment_method,
+  .scheme_of_work_steps .get_song {
+    width: 31%;
+  }
+
+  .apply_online_action,
+  .get_song_action {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .payment_method_icon_container {
+    border-right: 1px solid #49b8d1;
+    border-left: 1px solid #49b8d1;
+  }
+
+  .apply_online_icon,
+  .payment_method_icon,
+  .get_song_icon {
+    margin: auto;
+    width: auto;
+    background-position: center;
+  }
+
+  .apply_online_icon {
+    padding-right: 120px;
+  }
+
+  .payment_method_icon {
+    padding: 0 120px;
+  }
+
+  .get_song_icon {
+    padding-left: 120px;
+  }
+
+  .payment_method_icon img {
+    right: 45%;
+  }
+
+  .apply_online_icon img,
+  .get_song_icon img {
+    right: 42%;
+  }
+
+  .apply_online_action,
+  .get_song_action {
+    padding: 0 59px;
+  }
+
+  .payment_method_action {
+    padding: 0 100px;
+  }
+
+  .apply_online_text p,
+  .payment_method_text p,
+  .get_song_text p {
+    padding: 0 70px;
+  }
+
+  .example_songs_feedback img:first-of-type {
+    margin-right: 235px;
+  }
+
+  .details_offer .details img {
+    margin-left: 28px;
+  }
+
+  .super_offer_order .order {
+    margin-top: 0;
+  }
+
+  footer .logo img {
+    position: relative;
+    top: -23px;
+  }
+
+  header .container,
+  .super_offer .super_offer_content,
+  .scheme_of_work .container,
+  .whom_songs .container,
+  .example_songs .container,
+  .video .container,
+  .answer_question .container,
+  .global-conclusion .container,
+  footer .container {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  .super_offer .container {
+    top: -87px;
+  }
 }
 
 @media only screen and (min-width: 1350px) {
-    .promo .container,
-    .feedback .container,
-    .feedback_slider .container,
-    .rates .container {
-        margin: 0 auto;
-        width: 1335px;
-    }
+  .promo .container,
+  .feedback .container,
+  .feedback_slider .container,
+  .rates .container {
+    margin: 0 auto;
+    width: 1335px;
+  }
 }
 
 @media only screen and (min-width: 1450px) {
-    .super_offer .container {
-        top: -100px;
-    }
+  .super_offer .container {
+    top: -100px;
+  }
 }

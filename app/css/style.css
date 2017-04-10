@@ -223,6 +223,7 @@ main {
 .promo_music_whom li {
     list-style: none;
     display: inline-block;
+    font: 15pt "UbuntuRegular";
 }
 
 .promo_music_whom a {
@@ -343,12 +344,11 @@ main {
 .who_name {
     font: 10pt "UbuntuMedium";
     color: black;
-    padding-top: 20px;
 }
 
 .who_whom {
     color: black;
-    font: 10pt "UbuntuLight";
+    font: 11.5pt "UbuntuLight";
 }
 
 .who_avatar {
@@ -361,7 +361,7 @@ main {
 
 .promo_feedback_text {
     color: black;
-    font: 10pt "UbuntuLight";
+    font: 11.5pt "UbuntuLight";
     padding: 0 30px;
     clear: both;
 }

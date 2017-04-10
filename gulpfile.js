@@ -53,8 +53,8 @@ gulp.task('css', function() {
             'app/css/amazingslider-1.css',
             'app/css/fonts.css',
             'app/css/style.css',
-            'app/css/media.css',
-            'app/css/audio.css'
+            'app/css/audio.css',
+            'app/css/media.css'
         ])
         .on('error', console.log)
         .pipe(concat('styles.min.css'))
