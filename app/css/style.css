@@ -441,6 +441,7 @@ main {
   border-bottom: 3px solid #388da0;
   background: #49b8d1;
   border-radius: 10px;
+  outline: none;
 }
 
 .scheme_of_work {
@@ -969,6 +970,7 @@ footer .contacts {
   font: 15pt "UbuntuLight";
   padding: 15px 32px 13px 28px;
   cursor: pointer;
+  outline: none;
 }
 
 .modal_form .save_data {
