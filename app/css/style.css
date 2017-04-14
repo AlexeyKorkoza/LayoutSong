@@ -616,6 +616,7 @@ main {
 .example_songs_feedback{
     margin: 0 40px;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .example_songs_feedback:first-of-type{
@@ -625,6 +626,7 @@ main {
 .example_songs_feedback .text_audio{
     background: white;
     padding: 10px 25px 30px 30px;
+    box-shadow: 0 0 5px #888888;
 }
 
 .example_songs_feedback .text_audio p{
@@ -643,7 +645,6 @@ main {
 
 .example_songs_feedback .avatar img{
     float: left;
-    display: block;
     margin: 0 20px 0 32px;
 }
 
@@ -658,6 +659,15 @@ main {
     color: black;
     font-weight: bold;
     line-height: 25px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
+    margin: 0 0 10px 60px;
 }
 
 .example_songs_line {
