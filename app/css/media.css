@@ -106,6 +106,20 @@
    display: inline-block;
   }
 
+  .example_songs_feedback{
+    width: 470px;
+    margin: 0 40px;
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 650px) {
+
+  .example_songs_line{
+    width: 570px;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -143,7 +157,7 @@
     top: -57px;
   }
 
-  .example_songs p {
+  .example_songs .container > p {
     width: 636px;
     margin: 0 auto 75px auto;
   }
@@ -212,11 +226,11 @@
     display: block;
   }
 
-  .example_songs_feedback {
+  .example_songs_feedbacks {
     display: inline-block;
   }
 
-  .example_songs_feedback img {
+  .example_songs_feedbacks img {
     vertical-align: top;
   }
 
@@ -382,7 +396,11 @@
     padding: 0 70px;
   }
 
-  .example_songs_feedback img:first-of-type {
+  .example_songs_feedback:first-of-type{
+    margin-bottom: 0;
+    }
+
+  .example_songs_feedbacks img:first-of-type {
     margin-right: 235px;
   }
 
@@ -402,6 +420,10 @@
   .whom_songs_example .who:nth-of-type(2),
   .whom_songs_example .who:nth-of-type(5){
     margin: 50px 248px;
+  }
+
+  .example_songs_feedback:first-of-type{
+    margin-right: 235px;
   }
 
   footer .logo img {

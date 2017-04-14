@@ -594,7 +594,7 @@ main {
   padding: 120px 20px 55px 20px;
 }
 
-.example_songs h1 {
+.example_songs .container > h1 {
   color: #373737;
   font: 40pt "UbuntuMedium";
   display: block;
@@ -602,22 +602,69 @@ main {
   text-align: center;
 }
 
-.example_songs p {
+.example_songs .container > p {
   font: 17pt "UbuntuLight";
   color: #373737;
   display: block;
   margin-bottom: 75px;
 }
 
-.example_songs_feedback {
+.example_songs_feedbacks {
   margin-top: 110px;
+}
+
+.example_songs_feedback{
+    margin: 0 40px;
+    overflow: hidden;
+}
+
+.example_songs_feedback:first-of-type{
+    margin-bottom: 55px;
+}
+
+.example_songs_feedback .text_audio{
+    background: white;
+    padding: 10px 25px 30px 30px;
+}
+
+.example_songs_feedback .text_audio p{
+    color: #444444;
+    font: 15pt "UbuntuLight";
+}
+
+.example_songs_feedback .audio-player{
+    margin-top: 30px;
+}
+
+.example_songs_feedback .avatar{
+    overflow: hidden;
+    position: relative;
+}
+
+.example_songs_feedback .avatar img{
+    float: left;
+    display: block;
+    margin: 0 20px 0 32px;
+}
+
+.example_songs_feedback .avatar p {
+    color: #52535d;
+    font: 10pt "UbuntuLight";
+    display: block;
+    margin-top: 25px;
+}
+
+.example_songs_feedback .avatar p span{
+    color: black;
+    font-weight: bold;
+    line-height: 25px;
 }
 
 .example_songs_line {
   background: url(../img/example_songs_line.png) no-repeat;
   height: 10px;
   position: relative;
-  width: 570px;
+  width: 65%;
   margin: 0 auto;
 }
 

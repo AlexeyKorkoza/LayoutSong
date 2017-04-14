@@ -209,6 +209,26 @@ div.audio-player {
   border-radius: 10px;
 }
 
+.example_songs_feedback .audio-player .mejs__time-total,
+.example_songs_feedback .audio-player .mejs__horizontal-volume-total{
+  background: #f0edeb;
+}
+
+.example_songs_feedback .audio-player .mejs__controls .mejs__pause button,
+.example_songs_feedback .audio-player .mejs__controls .mejs__play button,
+.example_songs_feedback .audio-player .mejs__controls .mejs__replay button,
+.example_songs_feedback .audio-player .mejs__playpause-button button{
+  margin-left: 0;
+}
+
+.example_songs_feedback .audio-player .mejs__time-rail{
+  margin-left: 10px !important;
+}
+
+.example_songs_feedback .audio-player .mejs__horizontal-volume-slider{
+  right: 30px;
+}
+
 .mejs__controls:not([style*="display: none"]) {
    background: none;
 }
