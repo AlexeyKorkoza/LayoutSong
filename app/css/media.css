@@ -101,6 +101,11 @@
     padding-top: 20px;
   }
 
+  .whom_songs_example .who{
+   width: 50%;
+   display: inline-block;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -142,6 +147,7 @@
     width: 636px;
     margin: 0 auto 75px auto;
   }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -175,6 +181,10 @@
 
   .super_offer .container {
     top: -70px;
+  }
+
+  .whom_songs_example .who{
+    margin: 50px;
   }
 
   .details_offer .details,
@@ -219,6 +229,15 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+  }
+
+  .whom_songs_example{
+    display: table;
+  }
+
+  .whom_songs_example .who{
+    display: inline-block;
+    width: 22%;
   }
 
   .accordions {
@@ -271,6 +290,7 @@
   footer .contacts .socials {
     display: inline-block;
   }
+
 }
 
 @media only screen and (min-width: 1020px) {
@@ -374,6 +394,16 @@
     margin-top: 0;
   }
 
+  .whom_songs_example .who{
+    margin: 50px 0;
+    width: 19%;
+  }
+
+  .whom_songs_example .who:nth-of-type(2),
+  .whom_songs_example .who:nth-of-type(5){
+    margin: 50px 248px;
+  }
+
   footer .logo img {
     position: relative;
     top: -23px;
@@ -395,6 +425,7 @@
   .super_offer .container {
     top: -87px;
   }
+
 }
 
 @media only screen and (min-width: 1350px) {

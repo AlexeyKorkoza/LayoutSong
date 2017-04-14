@@ -565,7 +565,25 @@ main {
 
 .whom_songs_example {
   display: table;
-  margin: 48px auto 0 auto;
+  margin: 0 auto;
+}
+
+.whom_songs_example .who{
+    margin: 50px 0;
+    width: 100%;
+}
+
+.whom_songs_example .who div{
+    width: 212px;
+    margin: 0 auto;
+}
+
+.whom_songs_example .who div p{
+    text-align: center;
+    color: #777463;
+    display: block;
+    margin-top: 15px;
+    font: 15pt "UbuntuRegular";
 }
 
 .example_songs {
