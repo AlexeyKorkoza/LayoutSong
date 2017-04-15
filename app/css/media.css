@@ -109,7 +109,10 @@
   .example_songs_feedback{
     width: 470px;
     margin: 0 40px;
-    display: block;
+  }
+
+  .example_songs_feedback .mejs__time-total{
+    width: 250px;
   }
 
 }
@@ -396,11 +399,15 @@
     padding: 0 70px;
   }
 
-  .example_songs_feedback:first-of-type{
-    margin-bottom: 0;
-    }
+  .example_songs_feedbacks {
+    display: flex;
+  }
 
-  .example_songs_feedbacks img:first-of-type {
+  .example_songs_feedbacks .example_songs_feedback:last-of-type{
+    margin-top: 0;
+  }
+
+  .example_songs_feedbacks .example_songs_feedback:first-of-type {
     margin-right: 235px;
   }
 

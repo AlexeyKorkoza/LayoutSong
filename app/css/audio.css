@@ -226,7 +226,7 @@ div.audio-player {
 }
 
 .example_songs_feedback .audio-player .mejs__horizontal-volume-slider{
-  right: 30px;
+  right: 80px;
 }
 
 .mejs__controls:not([style*="display: none"]) {

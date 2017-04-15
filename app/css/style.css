@@ -619,8 +619,8 @@ main {
     border-radius: 5px;
 }
 
-.example_songs_feedback:first-of-type{
-    margin-bottom: 55px;
+.example_songs_feedback:last-of-type{
+    margin-top:60px;
 }
 
 .example_songs_feedback .text_audio{
@@ -631,7 +631,7 @@ main {
 
 .example_songs_feedback .text_audio p{
     color: #444444;
-    font: 15pt "UbuntuLight";
+    font: 13pt "UbuntuLight";
 }
 
 .example_songs_feedback .audio-player{
