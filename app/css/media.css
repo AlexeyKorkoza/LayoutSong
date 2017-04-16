@@ -123,6 +123,18 @@
     width: 570px;
   }
 
+  .rates .prices{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .rates .price{
+    width: 270px;
+    margin-right: 60px;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {

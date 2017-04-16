@@ -169,7 +169,10 @@ function openWhom(evt, whom) {
 }
 
 /* modal */
+function Modal(evt){
+
 var modal = document.getElementById("Modal");
+modal.style.display = "block";
 
 window.onclick = function (event) {
   if (event.target == modal) {
@@ -183,3 +186,5 @@ document.onkeydown = function (evt) {
     modal.style.display = "none";
   }
 };
+
+}

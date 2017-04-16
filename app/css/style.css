@@ -853,9 +853,155 @@ main {
 }
 
 .rates .price {
-  background: url(../img/Price.png) no-repeat;
-  height: 696px;
-  width: 100%;
+    border-radius: 5px;
+    color: #606060;
+    background: white;
+    font: 10pt "UbuntuLight";
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.rates .price:nth-of-type(2){
+    color: black;
+}
+
+.rates .price:first-of-type .info_about_rate{
+    background: #51beff;
+}
+
+.rates .price:nth-of-type(2) .info_about_rate{
+    background: #f300b6;
+    position: relative;
+}
+
+.rates .price .info_about_rate .discount{
+    position: relative;
+}
+
+.rates .price .info_about_rate .discount:before{
+    content: "";
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    transform: rotate(-15deg);
+    left: 0;
+    top: 50%;
+    right: 0;
+}
+
+.rates .price:nth-of-type(2) .info_about_rate .rate_star{
+    background: #ab0686;
+    padding: 5px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    right: -59px;
+    width: 135px;
+    transform: rotate(45deg);
+}
+
+.rates .price:nth-of-type(2) .info_about_rate .rate_star img{
+    transform: rotate(-45deg);
+    position: relative;
+    left: -2px;
+    top: 2px;
+}
+
+.rates .price:nth-of-type(3) .info_about_rate{
+    background: #9e3bcc;
+}
+
+.rates .price:last-of-type .info_about_rate{
+    background: #ffde00;
+}
+
+.rates .price div{
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px 25px;
+}
+
+.rates .price .order_rate,
+.rates .price .info_about_rate{
+    border-bottom: 0;
+     padding: 15px 0;
+}
+
+.rates .price:first-of-type div:nth-of-type(6),
+.rates .price:nth-of-type(2) div:nth-of-type(6),
+.rates .price:nth-of-type(2) div:nth-of-type(7),
+.rates .price:nth-of-type(3) div:nth-of-type(5),
+.rates .price:last-of-type div:nth-of-type(5),
+.rates .price:last-of-type div:nth-of-type(6){
+    color:#70c45d;
+}
+
+.rates .price:first-of-type div:nth-of-type(6) img,
+.rates .price:nth-of-type(2) div:nth-of-type(6) img{
+   position: relative;
+   top: 10px;
+}
+
+.rates .price .info_about_rate{
+    color: white;
+}
+
+.rates .price .info_about_rate .rate{
+    font: 10pt "UbuntuLight";
+}
+
+.rates .price .info_about_rate .type_of_rate{
+    font: 18pt "UbuntuLight";
+}
+
+.rates .price .info_about_rate .discount_price {
+    text-align: left;
+    margin-left: 20px;
+    font: 32pt "UbuntuLight";
+}
+
+.rates .price .info_about_rate .discount_price span{
+   font: 12pt "UbuntuLight";
+}
+
+.rates .price .info_about_rate .discount_price .fa-rub{
+    font-size: 13pt;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.rates .price ul {
+  list-style-type: none;
+  text-align: left;
+  display: table;
+  margin: 0 auto;
+}
+
+.rates .price ul li span:last-of-type{
+    margin-left: 5px;
+}
+
+.rates .price ul li span:first-of-type:before {
+  content: '\2014';
+}
+
+.rates .price .order_rate{
+    text-align: center;
+    padding: 15px 30px 5px 30px;
+}
+
+.rates .price .order_rate .order{
+    font-size: 15pt;
+    padding: 10px 62px 15px 62px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.rates .price .order_rate span{
+    color: #444444;
+    font-weight: bold;
 }
 
 .answer_question {
@@ -998,7 +1144,8 @@ footer .contacts {
   height: 100%;
   overflow: auto;
   background: url(../img/background-modal.png);
-  padding: 100px 30px 0 30px;;
+  padding: 100px 30px 0 30px;
+  display: none;
 }
 
 .modal_content {
