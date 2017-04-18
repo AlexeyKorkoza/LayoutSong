@@ -53,7 +53,7 @@ $(document).ready(function () {
   /* accordion */
   function close_accordion_section() {
     $(".accordion .accordion_title").removeClass("active");
-    $(".accordion .accordion-panel").slideUp(500).removeClass("open");
+    $(".accordion .accordion-panel").fadeOut("slow").removeClass("open");
   }
 
   $(".accordion_title").click(function (e) {
@@ -64,7 +64,7 @@ $(document).ready(function () {
     } else {
       close_accordion_section();
       $(this).addClass("active");
-      $(".accordions " + currentAttrValue).slideDown(500).addClass("open");
+      $(".accordions " + currentAttrValue).fadeIn("slow").addClass("open");
     }
 
     e.preventDefault();
