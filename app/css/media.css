@@ -124,10 +124,17 @@
   }
 
   .rates .prices{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .rates .price{
@@ -420,6 +427,8 @@
   }
 
   .example_songs_feedbacks {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 

@@ -477,8 +477,6 @@ main {
   background: #49b8d1;
   border-radius: 10px;
   outline: none;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
 }
 
