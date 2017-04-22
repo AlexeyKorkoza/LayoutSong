@@ -1,6 +1,6 @@
 @media only screen and (min-width: 400px) {
-  header .container .contacts .telephone,
-  header .container .contacts .socials {
+  header .contacts .telephone,
+  header .contacts .socials {
     float: left;
   }
 }
@@ -346,8 +346,14 @@
     position: static;
   }
 
+  header .contacts .telephone,
+  header .contacts .socials {
+    display: inline-block;
+    float: none;
+  }
+
   .navigation {
-    width: 70%;
+    width: 68%;
   }
 
   .scheme_of_work_steps .apply_online,
