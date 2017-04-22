@@ -34,10 +34,10 @@
                 <br/><span class="number_of_telephone">8-800-2000-60</span>
             </div>
             <div class="socials">
-                <a href="#"><img src="img/vk.png" alt="vk">
-                </a>
-                <a href="#"><img src="img/instagram.png" alt="instagram">
-                </a>
+                <div id="social-2" class="vk"></div>
+                <div class="instagram">
+                    <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -723,8 +723,10 @@
                 <span class="number_of_telephone">8-800-2000-60</span>
             </div>
             <div class="socials">
-                <a href="#"><img src="img/vk.png" alt="vk"></a>
-                <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+                <div id="social-1" class="vk"></div>
+                <div class="instagram">
+                    <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -755,6 +757,16 @@
         iPadUseNativeControls: true,
         iPhoneUseNativeControls: true,
         AndroidUseNativeControls: true
+    });
+    $(document).ready(function () {
+        /*var social = $(".social-button__components").children();
+        social.each(function (i, e) {
+            $(e).remove();
+        });
+        social = $(".social-button__components").children();
+        social.each(function (i, e) {
+            $(e).remove();
+        });*/
     });
 </script>
 </body>

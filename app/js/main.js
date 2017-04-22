@@ -188,3 +188,45 @@ document.onkeydown = function (evt) {
 };
 
 }
+
+var options = {
+  services: ['vkontakte'],
+  id: 'social-1',
+  components: ['icon'],
+  theme: 'color',
+  title: 'Mail.Ru: почта, поиск в интернете, новости, игр!',
+  counter: true,
+  outputCountCallback: function(count) {
+    if(count >= 1000000) {
+      return count = parseInt(count / 1000000) + ' мл';
+    }
+    else if(count >= 1000) {
+      return count = parseInt(count / 1000) + ' тыс';
+    }
+    return count;
+  },
+  url: 'https://mail.ru'
+};
+
+new SocialButtons(options);
+
+var options = {
+  services: ['vkontakte'],
+  id: 'social-2',
+  components: ['icon'],
+  theme: 'color',
+  title: 'Mail.Ru: почта, поиск в интернете, новости, игр!',
+  counter: true,
+  outputCountCallback: function(count) {
+    if(count >= 1000000) {
+      return count = parseInt(count / 1000000) + ' мл';
+    }
+    else if(count >= 1000) {
+      return count = parseInt(count / 1000) + ' тыс';
+    }
+    return count;
+  },
+  url: 'https://mail.ru'
+};
+
+new SocialButtons(options);

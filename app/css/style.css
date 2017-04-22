@@ -97,7 +97,7 @@ header {
 
 header .contacts .telephone,
 header .contacts .socials,
-footer .contacts .telephone
+footer .contacts .telephone,
 footer .contacts .socials {
   float: left;
   color: white;
@@ -131,6 +131,41 @@ header .container .contacts {
 header .contacts .telephone,
 header .contacts .socials {
   display: block;
+}
+
+header .contacts .socials .vk,
+header .contacts .socials .instagram,
+footer .contacts .socials .vk,
+footer .contacts .socials .instagram{
+  display: inline-block;
+}
+
+.b-social-button--color.b-social-button--vkontakte{
+  background: url(../img/vk.png) no-repeat !important;
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.b-social-button{
+  margin-bottom: 0 !important;
+}
+
+.social-button__icon:before{
+  content: ""!important;
+  font-family: inherit!important;
+  speak: none;
+  font-style: inherit;
+  font-weight: inherit;
+  font-variant: inherit;
+  line-height: inherit;
+}
+
+.b-social-button--color {
+  background-color: transparent !important;
+}
+
+.b-social-button--color.b-social-button--vkontakte:hover{
+  background-color: transparent !important;
 }
 
 header .contacts .socials a,
