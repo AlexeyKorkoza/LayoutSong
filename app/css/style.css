@@ -477,6 +477,9 @@ main {
   background: #49b8d1;
   border-radius: 10px;
   outline: none;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .scheme_of_work {
@@ -855,6 +858,18 @@ main {
   padding: 120px 70px 50px 70px;
   background: url(../img/background-feedback.png) no-repeat;
   background-size: cover;
+}
+
+.owl-stage .active:first-of-type{
+  padding-left: 50px;
+}
+
+.owl-stage .active:last-of-type{
+  padding-right: 50px;
+}
+
+.owl-carousel .owl-item img{
+  width: auto !important;
 }
 
 .feedback_slider .owl-nav .owl-prev,
