@@ -1076,6 +1076,11 @@ main {
   margin-bottom: 50px;
 }
 
+.accordions .accordion_first_column,
+.accordions .accordion_second_column{
+  width: 100%;
+}
+
 .answer_question .accordion .accordion_title {
   position: relative;
   background: #49b8d1;
