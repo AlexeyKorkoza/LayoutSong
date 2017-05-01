@@ -46,7 +46,6 @@ gulp.task('js', function() {
 
 gulp.task('css', function() {
     return gulp.src([
-            /*'node_modules/hover.css/css/hover-min.css',*/
             'node_modules/mediaelement/build/mediaelementplayer.min.css',
             'node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
             'node_modules/owl.carousel/dist/assets/owl.theme.default.min.css',

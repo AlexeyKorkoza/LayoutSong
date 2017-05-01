@@ -39,7 +39,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.1.2",
     "gulp-watch": "^4.3.11",
-    "hover.css": "^2.2.0",
     "imagemin-pngquant": "^5.0.0",
     "jquery": "^3.2.1",
     "mediaelement": "^4.0.3",
