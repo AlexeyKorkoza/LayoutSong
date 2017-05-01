@@ -178,6 +178,7 @@ div.audio-player {
   width: 31px;
   cursor: pointer;
   background-position: 3px 3px;
+  outline: none;
 }
 
 .mejs__controls .mejs__pause button {
@@ -187,6 +188,7 @@ div.audio-player {
   width: 31px;
   cursor: pointer;
   background-position: 3px 3px;
+  outline: none;
 }
 
 .mejs__container{
