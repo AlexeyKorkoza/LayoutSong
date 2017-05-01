@@ -6,5 +6,5 @@ Coding of a real layout
 ```
 1. git clone https://github.com/AlexeyKorkoza/LayoutSong.git
 2. npm install or yarn install
-3. gulp
+3. gulp start
 ```
