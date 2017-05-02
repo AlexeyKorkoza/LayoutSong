@@ -50,24 +50,24 @@ $(document).ready(function () {
     $("#amazingslider-1").css({"width": "", "width": htmlWidth - 100});
   }
 
-  /* accordion */
-  function close_accordion_section() {
-    $(".accordion .accordion_title").removeClass("active");
-    $(".accordion .accordion-panel").fadeOut("slow").removeClass("open");
-  }
+  var spoilers = $(".spoiler a");
+  spoilers.click(function (e) {
+    e.preventDefault();
+    spoilers.not(this).siblings('div').animate({
+      height: 'hide'
+    }, 0);
 
-  $(".accordion_title").click(function (e) {
-    var currentAttrValue = $(this).attr("href");
-
-    if ($(e.target).is(".active")) {
-      close_accordion_section();
+    var cItem = $(this).siblings('div');
+    if (cItem.css('display') == 'none') {
+      cItem.animate({
+        height: 'show'
+      }, 300);
     } else {
-      close_accordion_section();
-      $(this).addClass("active");
-      $(".accordions " + currentAttrValue).fadeIn("slow").addClass("open");
+      cItem.animate({
+        height: 'hide'
+      }, 300);
     }
 
-    e.preventDefault();
   });
 
   $(".mejs__time-float").remove();
@@ -137,7 +137,7 @@ $(".feedback_slider .owl-carousel").owlCarousel({
 });
 
 // disable drag
-$(".owl-carousel .item").on("touchstart mousedown", function(e) {
+$(".owl-carousel .item").on("touchstart mousedown", function (e) {
   e.stopPropagation();
 });
 
@@ -177,23 +177,23 @@ function openWhom(evt, whom) {
 }
 
 /* modal */
-function Modal(evt){
+function Modal(evt) {
 
-var modal = document.getElementById("Modal");
-modal.style.display = "block";
+  var modal = document.getElementById("Modal");
+  modal.style.display = "block";
 
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
 
-document.onkeydown = function (evt) {
-  evt = evt || window.event;
-  if (evt.keyCode == 27) {
-    modal.style.display = "none";
-  }
-};
+  document.onkeydown = function (evt) {
+    evt = evt || window.event;
+    if (evt.keyCode == 27) {
+      modal.style.display = "none";
+    }
+  };
 
 }
 
@@ -204,11 +204,11 @@ var options = {
   theme: 'color',
   title: 'Mail.Ru: почта, поиск в интернете, новости, игр!',
   counter: true,
-  outputCountCallback: function(count) {
-    if(count >= 1000000) {
+  outputCountCallback: function (count) {
+    if (count >= 1000000) {
       return count = parseInt(count / 1000000) + ' мл';
     }
-    else if(count >= 1000) {
+    else if (count >= 1000) {
       return count = parseInt(count / 1000) + ' тыс';
     }
     return count;
@@ -225,11 +225,11 @@ var options = {
   theme: 'color',
   title: 'Mail.Ru: почта, поиск в интернете, новости, игр!',
   counter: true,
-  outputCountCallback: function(count) {
-    if(count >= 1000000) {
+  outputCountCallback: function (count) {
+    if (count >= 1000000) {
       return count = parseInt(count / 1000000) + ' мл';
     }
-    else if(count >= 1000) {
+    else if (count >= 1000) {
       return count = parseInt(count / 1000) + ' тыс';
     }
     return count;

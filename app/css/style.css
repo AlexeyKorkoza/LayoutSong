@@ -1069,17 +1069,17 @@ main {
   text-align: center;
 }
 
-.answer_question .accordion {
+.answer_question .spoiler {
   position: relative;
   margin-bottom: 50px;
 }
 
-.accordions .accordion_first_column,
-.accordions .accordion_second_column{
+.spoilers .spoiler_first_column,
+.spoilers .spoiler_second_column{
   width: 100%;
 }
 
-.answer_question .accordion .accordion_title {
+.answer_question .spoiler .spoiler_head {
   position: relative;
   background: #49b8d1;
   color: white;
@@ -1100,27 +1100,27 @@ main {
   align-items: center;
 }
 
-.answer_question .accordion .accordion_title span {
+.answer_question .spoiler .spoiler_head span {
 }
 
-.answer_question .accordion .accordion_title.active {
+.answer_question .spoiler .spoiler_head.active {
   margin-bottom: 0;
 }
 
-.answer_question .accordion .accordion_title img {
+.answer_question .spoiler .spoiler_head img {
   position: absolute;
   right: 40px;
   top: 35px;
 }
 
-.answer_question .accordion .accordion_title.active img {
+.answer_question .spoiler .spoiler_head.active img {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   -webkit-transform: rotate(-180deg);
   transform: rotate(-180deg);
 }
 
-.answer_question .accordion .accordion-panel {
+.answer_question .spoiler .spoiler_body {
   background: white;
   overflow: hidden;
   display: none;
@@ -1130,7 +1130,7 @@ main {
   top: -19px;
 }
 
-.answer_question .accordion div p {
+.answer_question .spoiler div p {
   font: 14pt "UbuntuRegular";
   color: #373737;
   padding: 20px 30px 40px 30px;

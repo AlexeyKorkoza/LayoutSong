@@ -269,7 +269,7 @@
     width: 22%;
   }
 
-  .accordions {
+  .spoilers {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
@@ -291,8 +291,8 @@
     width: 245px;
   }
 
-  .accordions .accordion_first_column,
-  .accordions .accordion_second_column{
+  .spoilers .spoiler_first_column,
+  .spoilers .spoiler_second_column{
     width: 48%;
     display: inline-block;
   }
