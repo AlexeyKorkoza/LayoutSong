@@ -120,6 +120,9 @@ $(".feedback_slider .owl-carousel").owlCarousel({
   margin: 10,
   nav: true,
   responsiveClass: true,
+  mouseDrag: false,
+  touchDrag: false,
+  pullDrag: false,
   responsive: {
     0: {
       items: 1
@@ -131,6 +134,11 @@ $(".feedback_slider .owl-carousel").owlCarousel({
       items: 3
     }
   }
+});
+
+// disable drag
+$(".owl-carousel .item").on("touchstart mousedown", function(e) {
+  e.stopPropagation();
 });
 
 $(".feedback_slider .owl-prev").empty();
