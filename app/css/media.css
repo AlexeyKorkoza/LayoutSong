@@ -1,10 +1,3 @@
-@media only screen and (min-width: 400px) {
-  header .contacts .telephone,
-  header .contacts .socials {
-    float: left;
-  }
-}
-
 @media only screen and (min-width: 550px) {
 
   .modal_content {
@@ -357,8 +350,7 @@
 
   header .contacts .telephone,
   header .contacts .socials {
-    display: inline-block;
-    float: none;
+    float: left;
   }
 
   .navigation {
