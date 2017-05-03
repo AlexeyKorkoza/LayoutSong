@@ -31,7 +31,7 @@ header {
   transition: .5s ease-in-out;
   cursor: pointer;
   float: left;
-  margin: 15px;
+  margin: 10px 15px 15px 15px
 }
 
 #nav-icon span {
