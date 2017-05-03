@@ -1330,3 +1330,11 @@ footer .contacts {
   -webkit-transform: rotate(3deg);
   transform: rotate(3deg);
 }
+
+/* css for viewportchecker.js */
+.hidden{
+  opacity:0;
+}
+.visible{
+  opacity:1;
+}

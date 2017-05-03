@@ -33,11 +33,12 @@ gulp.task('js', function() {
             'node_modules/mediaelement/build/lang/ru.js',
             'node_modules/social-buttons/src/js/*.js',
             'node_modules/jquery-sticky/jquery.sticky.js',
-            'node_modules/jquery-plugin-viewport-checker/jquery.viewportchecker.min.js',
+            'node_modules/jquery-plugin-viewport-checker/dist/jquery.viewportchecker.min.js',
             'app/js/amazingslider.js',
             'app/js/froogaloop2.min.js',
             'app/js/initslider-1.js',
-            'app/js/main.js'
+            'app/js/main.js',
+            'app/js/animationOnStart.js'
         ])
         .on('error', console.log)
         .pipe(concat('scripts.min.js'))
