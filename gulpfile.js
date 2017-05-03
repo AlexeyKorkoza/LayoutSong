@@ -32,10 +32,11 @@ gulp.task('js', function() {
             'node_modules/mediaelement/build/mediaelementplayer.min.js',
             'node_modules/mediaelement/build/lang/ru.js',
             'node_modules/social-buttons/src/js/*.js',
+            'node_modules/jquery-sticky/jquery.sticky.js',
+            'node_modules/jquery-plugin-viewport-checker/jquery.viewportchecker.min.js',
             'app/js/amazingslider.js',
             'app/js/froogaloop2.min.js',
             'app/js/initslider-1.js',
-            'app/js/jquery.sticky.js',
             'app/js/main.js'
         ])
         .on('error', console.log)
@@ -51,6 +52,7 @@ gulp.task('css', function() {
             'node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
             'node_modules/owl.carousel/dist/assets/owl.theme.default.min.css',
             'node_modules/social-buttons/src/css/SocialButtons.css',
+            'node_modules/animate.css/animate.min.css',
             'app/css/amazingslider-1.css',
             'app/css/fonts.css',
             'app/css/style.css',

@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/AlexeyKorkoza/LayoutSong#readme",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "browser-sync": "^2.18.8",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
@@ -41,6 +42,8 @@
     "gulp-watch": "^4.3.11",
     "imagemin-pngquant": "^5.0.0",
     "jquery": "^3.2.1",
+    "jquery-plugin-viewport-checker": "^1.8.3",
+    "jquery-sticky": "^1.0.4",
     "mediaelement": "^4.0.3",
     "owl.carousel": "^2.2.0",
     "social-buttons": "^2.3.6"
