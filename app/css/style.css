@@ -14,6 +14,7 @@ header {
   background: #373737;
   overflow: hidden;
   padding-top: 10px;
+  z-index: 1 !important;
 }
 
 .logo {
@@ -856,6 +857,10 @@ main {
   padding: 120px 70px 50px 70px;
   background: url(../img/background-feedback.png) no-repeat;
   background-size: cover;
+}
+
+.owl-carousel{
+  z-index: 0!important;
 }
 
 .owl-stage .active:first-of-type{

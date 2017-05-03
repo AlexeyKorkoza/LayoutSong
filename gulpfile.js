@@ -35,6 +35,7 @@ gulp.task('js', function() {
             'app/js/amazingslider.js',
             'app/js/froogaloop2.min.js',
             'app/js/initslider-1.js',
+            'app/js/jquery.sticky.js',
             'app/js/main.js'
         ])
         .on('error', console.log)

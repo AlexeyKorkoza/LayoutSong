@@ -238,3 +238,14 @@ var options = {
 };
 
 new SocialButtons(options);
+
+/*$('header').stickThis({
+  top:            0,		    // top position of sticky element, measured from 'ceiling'
+  minscreenwidth: 0,		    // element will not be sticky when viewport width smaller than this
+  maxscreenwidth: 2000,		// element will not be sticky when viewport width larger than this
+  zindex:         1,		    // z-index value of sticky element
+  debugmode:      false,      // when true, errors will be logged to console
+  pushup:         ''          // another (unique) element on the page that will 'push up' the sticky element
+});*/
+
+$("header").sticky({topSpacing:0});
