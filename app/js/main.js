@@ -1,9 +1,16 @@
 $(document).ready(function () {
 
+  /* nav menu */
   $("#nav-icon").click(function () {
     $(this).toggleClass("open");
     $(".navigation").toggle();
   });
+
+  /* audio */
+  $(".mejs__time-float").remove();
+
+  /* sticky */
+  $("header").sticky({topSpacing:0});
 
   /* videoslider */
   var childsBox = $(".amazingslider-box-1").children();
@@ -50,6 +57,7 @@ $(document).ready(function () {
     $("#amazingslider-1").css({"width": "", "width": htmlWidth - 100});
   }
 
+  /* spoilers */
   var spoilers = $(".spoiler a");
   spoilers.click(function (e) {
     e.preventDefault();
@@ -70,8 +78,7 @@ $(document).ready(function () {
 
   });
 
-  $(".mejs__time-float").remove();
-
+  /* SuperOffer */
   resizeSuperOffer();
 
   $(window).resize(function () {
@@ -238,14 +245,3 @@ var options = {
 };
 
 new SocialButtons(options);
-
-/*$('header').stickThis({
-  top:            0,		    // top position of sticky element, measured from 'ceiling'
-  minscreenwidth: 0,		    // element will not be sticky when viewport width smaller than this
-  maxscreenwidth: 2000,		// element will not be sticky when viewport width larger than this
-  zindex:         1,		    // z-index value of sticky element
-  debugmode:      false,      // when true, errors will be logged to console
-  pushup:         ''          // another (unique) element on the page that will 'push up' the sticky element
-});*/
-
-$("header").sticky({topSpacing:0});
