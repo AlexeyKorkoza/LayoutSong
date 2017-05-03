@@ -808,12 +808,18 @@ main {
   background: url(../img/video-arrow-right.png) no-repeat !important;
   height: 70px !important;
   width: 45px !important;
+  display: block !important;
 }
 
 .amazingslider-arrow-left-1 {
   background: url(../img/video-arrow-left.png) no-repeat !important;
   height: 70px !important;
   width: 45px !important;
+  display: block !important;
+}
+
+.amazingslider-img-1 img{
+  margin-top: 0 !important;
 }
 
 .amazingslider-text-1 .amazingslider-title-1 {

@@ -34,6 +34,7 @@ gulp.task('js', function() {
             'node_modules/social-buttons/src/js/*.js',
             'node_modules/jquery-sticky/jquery.sticky.js',
             'node_modules/jquery-plugin-viewport-checker/dist/jquery.viewportchecker.min.js',
+            'node_modules/css-element-queries/src/ResizeSensor.js',
             'app/js/amazingslider.js',
             'app/js/froogaloop2.min.js',
             'app/js/initslider-1.js',

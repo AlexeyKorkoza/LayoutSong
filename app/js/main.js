@@ -13,12 +13,14 @@ $(document).ready(function () {
   $("header").sticky({topSpacing:0});
 
   /* videoslider */
-  var childsBox = $(".amazingslider-box-1").children();
-  childsBox.each(function (i, e) {
-    if ($(e).attr("class") === undefined) {
-      $(e).remove();
-    }
-  });
+  function clearTitleAmazing() {
+    var childsBox = $(".amazingslider-box-1").children();
+    childsBox.each(function (i, e) {
+      if ($(e).attr("class") === undefined) {
+        $(e).remove();
+      }
+    });
+  }
 
   var childsBullet = $(".amazingslider-bullet-wrapper-1").children();
   childsBullet.each(function (i, e) {
@@ -28,11 +30,12 @@ $(document).ready(function () {
   $(".amazingslider-bottom-shadow-1 img").remove();
   $(".amazingslider-text-1 .amazingslider-title-1").remove();
 
-  var count = $(".amazingslider-bullet-wrapper-1 div").length;
+  var count = $(".amazingslider-slides").children().length;
   var currentValue = 1;
   $(".number_of_slide").text(currentValue + " из " + count);
 
   $(".amazingslider-arrow-right-1").click(function () {
+    clearTitleAmazing();
     currentValue++;
     if (currentValue > 7) {
       currentValue = 1;
@@ -43,6 +46,7 @@ $(document).ready(function () {
   });
 
   $(".amazingslider-arrow-left-1").click(function () {
+    clearTitleAmazing();
     currentValue--;
     if (currentValue == 0) {
       currentValue = 7;
@@ -50,6 +54,23 @@ $(document).ready(function () {
     } else {
       $(".number_of_slide").text(currentValue + " из " + count);
     }
+  });
+
+  var timers = $('.amazingslider-timer-1');
+  new ResizeSensor(timers, function() {
+    clearTitleAmazing();
+    timers.each(function () {
+      var percentage = $(this).width() / ($(".amazingslider-slider-1").width() - 16) * 100;
+      if( percentage >= 101 && percentage < 102 ){
+        currentValue++;
+        if (currentValue > 7) {
+          currentValue = 1;
+          $(".number_of_slide").text(currentValue + " из " + count);
+        } else {
+          $(".number_of_slide").text(currentValue + " из " + count);
+        }
+      }
+    });
   });
 
   var htmlWidth = $("html").innerWidth();
