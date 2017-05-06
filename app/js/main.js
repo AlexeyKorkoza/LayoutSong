@@ -151,6 +151,8 @@ $(".feedback_slider .owl-carousel").owlCarousel({
   mouseDrag: false,
   touchDrag: false,
   pullDrag: false,
+  autoplay: true,
+  smartSpeed: 500,
   responsive: {
     0: {
       items: 1
@@ -179,6 +181,8 @@ $(".promo_feedback .owl-carousel").owlCarousel({
   margin: 10,
   nav: true,
   responsiveClass: true,
+  autoplay: true,
+  smartSpeed: 500,
   responsive: {
     0: {
       items: 1
