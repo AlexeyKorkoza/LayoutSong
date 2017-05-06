@@ -270,3 +270,14 @@ var options = {
 };
 
 new SocialButtons(options);
+
+var music_whom = $(".promo_music_whom li");
+music_whom.click(function (e) {
+  e.preventDefault();
+  music_whom.each(function (i,item) {
+    if($(item).attr("class") !== undefined){
+      $(item).removeClass();
+    }
+  });
+  $(this).addClass("active");
+});

@@ -272,6 +272,10 @@ main {
   padding: 0 3%;
 }
 
+.promo_music_whom li.active{
+  border-bottom: 1px solid orange;
+}
+
 .promo_music_whom li:nth-of-type(2) {
   border-right: 1px solid #f0edeb;
   border-left: 1px solid #f0edeb;
