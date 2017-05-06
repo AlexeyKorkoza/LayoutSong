@@ -35,11 +35,14 @@ gulp.task('js', function() {
             'node_modules/jquery-sticky/jquery.sticky.js',
             'node_modules/jquery-plugin-viewport-checker/dist/jquery.viewportchecker.min.js',
             'node_modules/css-element-queries/src/ResizeSensor.js',
+            'app/js/jquery.validate.js',
+            'app/js/messages_ru.js',
             'app/js/amazingslider.js',
             'app/js/froogaloop2.min.js',
             'app/js/initslider-1.js',
             'app/js/main.js',
-            'app/js/animationOnStart.js'
+            'app/js/animationOnStart.js',
+            'app/js/validateForm.js'
         ])
         .on('error', console.log)
         .pipe(concat('scripts.min.js'))

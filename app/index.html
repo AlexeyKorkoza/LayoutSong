@@ -751,10 +751,10 @@
 <div id="Modal" class="modal">
     <div class="modal_content">
         <div class="modal_header">Заполните форму</div>
-        <form class="modal_form">
-            <input type="text" placeholder="Ваше имя" class="modal_name">
-            <input type="text" placeholder="Телефон" class="modal_telephone">
-            <input type="email" placeholder="E-mail" class="modal_email">
+        <form class="modal_form" id="modal_order">
+            <input type="text" name="firstname" placeholder="Ваше имя" class="modal_name">
+            <input type="text" name="telephone" placeholder="Телефон" class="modal_telephone">
+            <input type="email" name="email" placeholder="E-mail" class="modal_email">
             <div class="modal_order">
                 <button type="submit">Заказать звонок</button>
                 <span class="save_data"><img src="img/save_data.png" alt="save_data">Гарантируем защиту данных</span>
@@ -762,6 +762,7 @@
         </form>
     </div>
 </div>
+
 <script src="dist/scripts.min.js"></script>
 <script>
     $('.audio-player audio').mediaelementplayer({

@@ -1344,3 +1344,16 @@ footer .contacts {
 .visible{
   opacity:1;
 }
+
+/* validate form */
+#firstname-error,
+#email-error,
+#telephone-error{
+  font: 12pt "UbuntuLight";
+  color: red;
+}
+
+#telephone-error{
+  position: relative;
+  top: -20px;
+}

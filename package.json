@@ -45,6 +45,7 @@
     "jquery": "^3.2.1",
     "jquery-plugin-viewport-checker": "^1.8.3",
     "jquery-sticky": "^1.0.4",
+    "jquery-validation": "^1.16.0",
     "mediaelement": "^4.0.3",
     "owl.carousel": "^2.2.0",
     "social-buttons": "^2.3.6"
